@@ -3,8 +3,8 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from pathlib import Path
 
-PARAM_FILE = "misuga_keys_standard.json"
-DB_DIR = "standard_param_db"
+PARAM_FILE = "orion_standard_parameters.json"
+DB_DIR = "standard_param_db_orion"
 
 def build_standard_param_db():
     # Load list of standard parameters

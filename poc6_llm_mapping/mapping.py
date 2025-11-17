@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-DB_DIR = "standard_param_db"
+DB_DIR = "standard_param_db_orion"
 
 def load_param_db():
     embeddings = HuggingFaceEmbeddings(
@@ -74,12 +74,12 @@ def rag_mapping(vectordb, extracted_data):
 vectordb = load_param_db()
 
 # parsed_data 
-with open("misuga_parssed.json", "r") as f:
+with open("shanghai_parsed.json", "r") as f:
     parsed_data = json.load(f)
 
 mapped = rag_mapping(vectordb, parsed_data)
 
-with open("misuga_output3.json", "w") as f:
+with open("shanghai_output3.json", "w") as f:
         f.write(json.dumps(mapped, indent=2))
 
 # print(json.dumps(mapped, indent=2))
