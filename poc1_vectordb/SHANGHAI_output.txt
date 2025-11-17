@@ -1,0 +1,250 @@
+Parsing ia given below : {
+  "vessel_name": "SHANGHAI EXPRESS",
+  "report_date": "10 Nov 2025 12:00",
+  "ship_time": "UTC -03:00",
+  "position_latitude": "25\u00b018'0''S",
+  "position_longitude": "44\u00b042'24''W",
+  "voyage_number": "2507B2",
+  "voyage_from": "Singapore, SINGAPORE",
+  "voyage_to": "Santos, BRAZIL",
+  "steaming_as": "12.21",
+  "steaming_mas": "11.34",
+  "dist_run_segment": "293",
+  "total_dist_run": "8975NM",
+  "dist_to_go": "122 NM",
+  "steaming_time_segment": "24.00 hrs",
+  "total_steaming_time": "792.50 hrs",
+  "me_rpm": "92.00",
+  "slip": "3.94",
+  "wind_speed_bf": "4",
+  "wind_direction_deg_t": "315",
+  "wind_description": "A",
+  "sea_height_m": "1.20",
+  "swell_height_m": "1.00",
+  "swell_direction_deg_t": "180",
+  "douglas_sea_state": "3",
+  "rob_hfo_mt": "1181.54",
+  "rob_vlsfo_mt": "0.00",
+  "rob_vlsgo_mt": "0.00",
+  "rob_ulsgo_mt": "322.29",
+  "rob_mecyl_ltr": "17501.00",
+  "rob_lsmecyl_ltr": "0.00",
+  "rob_mecc_ltr": "15455.00",
+  "rob_aecc_ltr": "3404.00",
+  "rob_fw_mt": "310.00",
+  "consumption_hfo_mt": "23.29",
+  "consumption_hfo_engine_mt": "20.21",
+  "consumption_hfo_aux_mt": "3.08",
+  "consumption_hfo_boiler_mt": "0.00",
+  "consumption_vlsfo_mt": "0.00",
+  "consumption_vlsfo_engine_mt": "0.00",
+  "consumption_vlsfo_aux_mt": "0.00",
+  "consumption_vlsfo_boiler_mt": "0.00",
+  "consumption_vlsgo_mt": "0.00",
+  "consumption_vlsgo_engine_mt": "0.00",
+  "consumption_vlsgo_aux_mt": "0.00",
+  "consumption_vlsgo_boiler_mt": "0.00",
+  "consumption_ulsgo_mt": "0.00",
+  "consumption_ulsgo_engine_mt": "0.00",
+  "consumption_ulsgo_aux_mt": "0.00",
+  "consumption_ulsgo_boiler_mt": "0.00",
+  "consumption_mecyl_ltr": "130.00",
+  "consumption_lsmecyl_ltr": "0.00",
+  "consumption_mecc_ltr": "25.00",
+  "consumption_aecc_ltr": "20.00",
+  "consumption_fw_mt": "15.00",
+  "next_port": "Santos, BRAZIL",
+  "eta_next_port": "10 Nov 2025 23:30",
+  "draft_fwd_m": "7.67",
+  "draft_aft_m": "8.42",
+  "remarks": "NIL"
+}
+
+Mapping with similarity scores:
+{
+  "Vessel_Name": {
+    "value": "SHANGHAI EXPRESS",
+    "similarity_score": 0.6483
+  },
+  "Report_Date_Time": {
+    "value": "10 Nov 2025 12:00",
+    "similarity_score": 0.4951
+  },
+  "Voyage_Start_Date": {
+    "value": "Santos, BRAZIL",
+    "similarity_score": 0.2836
+  },
+  "Latitude": {
+    "value": "25\u00b018'0''S",
+    "similarity_score": 0.2266
+  },
+  "Longitude": {
+    "value": "44\u00b042'24''W",
+    "similarity_score": 0.2792
+  },
+  "Voyage_Number": {
+    "value": "2507B2",
+    "similarity_score": 0.696
+  },
+  "Next_Port": {
+    "value": "Santos, BRAZIL",
+    "similarity_score": 0.5283
+  },
+  "ME_Running_Hrs": {
+    "value": "24.00 hrs",
+    "similarity_score": -0.2417
+  },
+  "Total_ME_Running_Hrs_Since_SOV": {
+    "value": "792.50 hrs",
+    "similarity_score": -0.0697
+  },
+  "Final_Destination_Port": {
+    "value": "122 NM",
+    "similarity_score": -0.4122
+  },
+  "ME_RPM": {
+    "value": "92.00",
+    "similarity_score": 0.5626
+  },
+  "Slip": {
+    "value": "3.94",
+    "similarity_score": -0.029
+  },
+  "Wind_Speed": {
+    "value": "A",
+    "similarity_score": 0.1378
+  },
+  "Sea_Height": {
+    "value": "1.20",
+    "similarity_score": 0.5569
+  },
+  "Swell_Height": {
+    "value": "180",
+    "similarity_score": 0.0648
+  },
+  "Douglas_Sea_State": {
+    "value": "3",
+    "similarity_score": 0.3632
+  },
+  "Remaining_On_Board_HFO_In_MT": {
+    "value": "1181.54",
+    "similarity_score": -0.1984
+  },
+  "Remaining_On_Board_VLSFO_In_MT": {
+    "value": "0.00",
+    "similarity_score": -0.3283
+  },
+  "Remaining_On_Board_VLSGO_In_MT": {
+    "value": "0.00",
+    "similarity_score": -0.3399
+  },
+  "Total_ULSGO_Consumed_In_MT": {
+    "value": "0.00",
+    "similarity_score": 0.1108
+  },
+  "Remaining_On_Board_MECYL_In_MT": {
+    "value": "17501.00",
+    "similarity_score": -0.3349
+  },
+  "Total_LSMECYL_Consumed_In_MT": {
+    "value": "0.00",
+    "similarity_score": 0.046
+  },
+  "Remaining_On_Board_MECC_In_MT": {
+    "value": "NIL",
+    "similarity_score": -0.5791
+  },
+  "Remaining_On_Board_AECC_In_MT": {
+    "value": "3404.00",
+    "similarity_score": -0.4059
+  },
+  "Remaining_On_Board_FW_In_MT": {
+    "value": "310.00",
+    "similarity_score": -0.4679
+  },
+  "Total_HFO_Consumed_In_MT": {
+    "value": "3.08",
+    "similarity_score": 0.1871
+  },
+  "Total_HFOME_Consumed_In_MT": {
+    "value": "0.00",
+    "similarity_score": 0.1349
+  },
+  "Total_VLSFOME_Consumed_In_MT": {
+    "value": "0.00",
+    "similarity_score": 0.075
+  },
+  "Total_VLSGO_Consumed_In_MT": {
+    "value": "0.00",
+    "similarity_score": 0.1206
+  },
+  "Total_MECYL_Consumed_In_MT": {
+    "value": "130.00",
+    "similarity_score": 0.0013
+  },
+  "Total_MECC_Consumed_In_MT": {
+    "value": "25.00",
+    "similarity_score": 0.0685
+  },
+  "Total_AECC_Consumed_In_MT": {
+    "value": "20.00",
+    "similarity_score": 0.046
+  },
+  "Total_FW_Consumed": {
+    "value": "15.00",
+    "similarity_score": 0.1154
+  },
+  "ETA_Next_Port": {
+    "value": "10 Nov 2025 23:30",
+    "similarity_score": 0.5129
+  },
+  "Draft_FWD": {
+    "value": "7.67",
+    "similarity_score": -0.0922
+  },
+  "Draft_AFT": {
+    "value": "8.42",
+    "similarity_score": 0.076
+  }
+}Mapping is given below : {
+  "Longitude": "44\u00b042'24''W",
+  "Final_Destination_Port": "Automated System",
+  "Vessel_Name": "SHANGHAI EXPRESS",
+  "Report_Date_Time": "10 Nov 2025 12:00",
+  "Voyage_Start_Date": "UTC -03:00",
+  "Latitude": "25\u00b018'0''S",
+  "Voyage_Number": "2507B2",
+  "Start_Port": "Santos, BRAZIL",
+  "Wind_Speed": "A",
+  "ME_RPM": 92.0,
+  "Distance": 8975,
+  "Distance_Remaining_To_EOV": 122,
+  "ME_Running_Hrs": 24.0,
+  "Total_ME_Running_Hrs_Since_SOV": 792.5,
+  "Slip": 3.94,
+  "Sea_Height": 1.2,
+  "Swell_Height": "180",
+  "Douglas_Sea_State": 3,
+  "Remaining_On_Board_HFO_In_MT": 1181.54,
+  "Remaining_On_Board_VLSFO_In_MT": 0.0,
+  "Remaining_On_Board_VLSGO_In_MT": 0.0,
+  "Total_ULSGO_Consumed_In_MT": 0.0,
+  "Remaining_On_Board_MECYL_In_MT": 17501.0,
+  "Total_LSMECYL_Consumed_In_MT": 0.0,
+  "Remaining_On_Board_MECC_In_MT": "NIL",
+  "Remaining_On_Board_AECC_In_MT": 3404.0,
+  "Remaining_On_Board_FW_In_MT": 310.0,
+  "Total_HFO_Consumed_In_MT": 0.0,
+  "Total_VLSFOME_Consumed_In_MT": 0.0,
+  "Total_VLSFOBLR_Consumed_In_MT": 0.0,
+  "Total_VLSGO_Consumed_In_MT": 0.0,
+  "Total_AECC_Consumed_In_MT": 20.0,
+  "Total_ULSGOME_Consumed_In_MT": 0.0,
+  "Total_MECYL_Consumed_In_MT": 130.0,
+  "Total_MECC_Consumed_In_MT": 25.0,
+  "Total_FW_Consumed": 15.0,
+  "Next_Port": "Santos, BRAZIL",
+  "ETA_Next_Port": "10 Nov 2025 23:30",
+  "Draft_FWD": 7.67,
+  "Draft_AFT": 8.42
+}

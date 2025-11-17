@@ -1,0 +1,75 @@
+
+    Sends the given email text to Gemini and returns structured key-value pairs as JSON.
+    """
+
+    prompt = f"""
+    Extract the data from this email table as structured valid JSON.
+    create valid JSON
+
+    Rules:
+    - Each line may contain one pairs.
+    - Keys and values are separated by ":" or "/".
+    - All keys must be **flattened** — do not use nested structures.
+    - vessal name is must add at starting
+    - each result have same format
+    - keys format is same for all
+    
+    Example: Instead of {{
+        "fuel": {{"rob": 719.1}}
+    }}, output as {{
+        "fuel_rob": 719.1
+    }}.
+    - Convert all keys to **lowercase** and replace spaces or special characters with underscores (_).
+    - If a line looks like "[Wind : 8knots, 3 Beaufort Number, SE]",
+    treat it as:
+    {{
+        "wind_1": "8knots",
+        "wind_2": "3 beaufort number",
+        "wind_3": "se"
+    }}.
+    - If a section header like "[UNBERTH Fuel (MT) : Fuel_Type/ROB/ME_Cons/...]" exists,
+    use those as flattened sub-keys for the following similar rows.
+    Example:
+    [UNBERTH Fuel (MT) : Fuel_Type/ROB/ME_Cons]
+    [UNBERTH Fuel : HSFO/719.1/0]
+    → {{
+        "unberth_fuel_mt_fuel_type": "hsfo",
+        "unberth_fuel_mt_rob": "719.1",
+        "unberth_fuel_mt_me_cons": "0"
+        }}
+    - Output only valid JSON. No explanations, no markdown, no extra text.
+
+        **Unit Extraction Rules:**
+    - Whenever a value contains a number followed by a unit (e.g. "2.00 m", "4755.00 ltr", "22.09 mt"), 
+    split them into two separate flattened key-value pairs:
+    Example:
+        "weather_sea_height": "2.00 m"
+    becomes:
+        "weather_sea_height": 2.00,
+        "weather_sea_height_unit": "m"
+
+    - Units can include: `m`, `mt`, `ltr`, `kts`, `nm`, `°t`, `hrs`, or any other alphabetic characters.
+    - If no unit is found, keep the original value as-is.
+    - If unit found dont add with there original value just create new key for unit
+      {{
+        "total_steaming_time_since_cosp": "53.3hrs",
+        "total_steaming_time_since_cosp_unit": "hrs",
+      }}
+      will be :
+      {{
+        "total_steaming_time_since_cosp": "53.3",
+        "total_steaming_time_since_cosp_unit": "hrs",
+      }}
+
+    **Contextual data inside sentences:**
+    - Extract values from narrative sentences (e.g. positions, speeds, fuel amounts).
+    - Example:
+       "At 0030LT 19.09.2025/ 2330UTC 18.09.2025" 
+       will be:
+       "time_local": "0030LT 19.09.2025",
+       "time_utc": "2330UTC 18.09.2025"
+
+    Input Email Data:
+    {text}
+
+    """

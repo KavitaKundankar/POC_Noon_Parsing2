@@ -1,0 +1,114 @@
+[
+  {
+    "standard_key": "Vessel_Name",
+    "description": "Name of the vessel as recorded in official documentation.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Vessel Name", "Ship Name", "Vsl Name"]
+  },
+  {
+    "standard_key": "Report_Type",
+    "description": "Type of report submitted (e.g., Noon, Arrival, Departure).",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Report Type", "Type of Report", "Rpt Type"]
+  },
+  {
+    "standard_key": "Total_VLSFOAX_Consumed_In_MT",
+    "description": "Total Very Low Sulphur Fuel Oil (VLSFO) consumed, in metric tons.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["VLSFO Consumed", "Total VLSFO Consumption", "VLSFO Used"]
+  },
+  {
+    "standard_key": "Draft_FWD",
+    "description": "Forward draft of the vessel measured at the bow in meters.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Draft FWD", "Bow Draft", "Forward Draft"]
+  },
+  {
+    "standard_key": "Draft_AFT",
+    "description": "Aft draft of the vessel measured at the stern in meters.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Draft AFT", "Stern Draft", "Aft Draft"]
+  },
+  {
+    "standard_key": "Latitude",
+    "description": "Latitude position of the vessel at the time of reporting.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Lat", "Latitude", "Position Lat"]
+  },
+  {
+    "standard_key": "Longitude",
+    "description": "Longitude position of the vessel at the time of reporting.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Long", "Longitude", "Position Long"]
+  },
+  {
+    "standard_key": "Voyage_Number",
+    "description": "Unique identifier assigned to this voyage.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Voy No", "Voyage #", "Voyage Number"]
+  },
+  {
+    "standard_key": "Avg_Speed",
+    "description": "Average speed maintained by the vessel during this reporting period, in knots.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Avg Speed", "Average Speed", "Vessel Avg Speed"]
+  },
+  {
+    "standard_key": "ME_Running_Hrs",
+    "description": "Main Engine running hours during this report period.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["ME Running Hours", "Main Engine Hours", "ME Hrs"]
+  },
+  {
+    "standard_key": "ME_RPM",
+    "description": "Main Engine revolutions per minute (RPM).",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["ME RPM", "M/E RPM", "Main Engine RPM"]
+  },
+  {
+    "standard_key": "Slip",
+    "description": "Propeller slip percentage derived from speed and RPM.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Slip %", "Propeller Slip", "Slip Percentage"]
+  },
+  {
+    "standard_key": "Wind_Speed",
+    "description": "Measured wind speed at reporting time, in knots.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Wind Spd", "Wind Speed", "WND Speed"]
+  },
+  {
+    "standard_key": "Sea_Height",
+    "description": "Observed height of the sea waves, in meters.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Sea Ht", "Wave Height", "Sea Height"]
+  },
+  {
+    "standard_key": "ETA_Next_Port",
+    "description": "Estimated Time of Arrival at the next port of call.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["ETA", "ETA Next Port", "Est Arrival"]
+  },
+  {
+    "standard_key": "Next_Port",
+    "description": "Name of the next port the vessel is heading to.",
+    "tenant": "orion",
+    "vessel": "KALIMANTAN EXPRESS",
+    "variant": ["Next Port", "Upcoming Port", "Destination Port"]
+  }
+]

@@ -1,0 +1,2614 @@
+[
+  {
+    "mrvparameter": "format_version",
+    "standardparameter": "Format_Version"
+  },
+  {
+    "mrvparameter": "portlist_version",
+    "standardparameter": "Portlist_Version"
+  },
+  {
+    "mrvparameter": "esm_version",
+    "standardparameter": "ESM_Version"
+  },
+  {
+    "mrvparameter": "report_type",
+    "standardparameter": "Report_Type"
+  },
+  {
+    "mrvparameter": "vessel_name",
+    "standardparameter": "Vessel_Name"
+  },
+  {
+    "mrvparameter": "imo_number",
+    "standardparameter": "IMO_Number"
+  },
+  {
+    "mrvparameter": "call_sign",
+    "standardparameter": "Call_Sign"
+  },
+  {
+    "mrvparameter": "voyage_number",
+    "standardparameter": "Voyage_Number"
+  },
+  {
+    "mrvparameter": "load_condition",
+    "standardparameter": "Vessel_Condition"
+  },
+  {
+    "mrvparameter": "time_at_noon",
+    "standardparameter": "Report_Date_Time"
+  },
+  {
+    "mrvparameter": "position_at_noon",
+    "standardparameter": "Vessel_Position"
+  },
+  {
+    "mrvparameter": "departure_port_name",
+    "standardparameter": "Start_Port"
+  },
+  {
+    "mrvparameter": "departure_port_code",
+    "standardparameter": "Source_Port_Code"
+  },
+  {
+    "mrvparameter": "destination_port_name",
+    "standardparameter": "Next_Port"
+  },
+  {
+    "mrvparameter": "destination_port_code",
+    "standardparameter": "Next_Port_Code"
+  },
+  {
+    "mrvparameter": "eta",
+    "standardparameter": "ETA_Next_Port"
+  },
+  {
+    "mrvparameter": "set_gyro_after_noon",
+    "standardparameter": "Set_Gyro"
+  },
+  {
+    "mrvparameter": "set_gyro_after_noon_unit",
+    "standardparameter": "Set_Gyro_Unit"
+  },
+  {
+    "mrvparameter": "steaming_distance",
+    "standardparameter": "Distance"
+  },
+  {
+    "mrvparameter": "steaming_distance_unit",
+    "standardparameter": "Distance_Unit"
+  },
+  {
+    "mrvparameter": "steaming_time",
+    "standardparameter": "ME_Running_Hrs"
+  },
+  {
+    "mrvparameter": "steaming_time_unit",
+    "standardparameter": "ME_Running_Hrs_Unit"
+  },
+  {
+    "mrvparameter": "distance_to_go_to_ps",
+    "standardparameter": "Distance_Remaining_To_EOV"
+  },
+  {
+    "mrvparameter": "distance_to_go_to_ps_unit",
+    "standardparameter": "Distance_Remaining_To_EOV_Unit"
+  },
+  {
+    "mrvparameter": "average_speed",
+    "standardparameter": "Avg_Speed"
+  },
+  {
+    "mrvparameter": "average_speed_unit",
+    "standardparameter": "Avg_Speed_Unit"
+  },
+  {
+    "mrvparameter": "speed_instruction",
+    "standardparameter": "Speed_Instruction"
+  },
+  {
+    "mrvparameter": "speed_instruction_other",
+    "standardparameter": "Speed_Instruction_Unit"
+  },
+  {
+    "mrvparameter": "ordered_speed",
+    "standardparameter": "Order_Speed"
+  },
+  {
+    "mrvparameter": "ordered_speed_unit",
+    "standardparameter": "Order_Speed_Unit"
+  },
+  {
+    "mrvparameter": "ordered_consumption_fo",
+    "standardparameter": "Ordered_Consumption_Fuel_Oil"
+  },
+  {
+    "mrvparameter": "ordered_consumption_fo_unit",
+    "standardparameter": "Ordered_Consumption_Fuel_Oil_Unit"
+  },
+  {
+    "mrvparameter": "ordered_consumption_go",
+    "standardparameter": "Ordered_Consumption_Gas_Oil"
+  },
+  {
+    "mrvparameter": "ordered_consumption_go_unit",
+    "standardparameter": "Ordered_Consumption_Gas_Oil_Unit"
+  },
+  {
+    "mrvparameter": "ordered_consumption_do",
+    "standardparameter": "Ordered_Consumption_DO"
+  },
+  {
+    "mrvparameter": "ordered_consumption_do_unit",
+    "standardparameter": "Ordered_Consumption_DO_Unit"
+  },
+  {
+    "mrvparameter": "draft",
+    "standardparameter": "Draft"
+  },
+  {
+    "mrvparameter": "set_rpm_after_noon",
+    "standardparameter": "RPM_Setting"
+  },
+  {
+    "mrvparameter": "set_rpm_after_noon_unit",
+    "standardparameter": "RPM_Setting_Unit"
+  },
+  {
+    "mrvparameter": "average_rpm",
+    "standardparameter": "Avg_RPM"
+  },
+  {
+    "mrvparameter": "average_rpm_unit",
+    "standardparameter": "Avg_RPM_Unit"
+  },
+  {
+    "mrvparameter": "average_me_mcr",
+    "standardparameter": "Avg_MCR"
+  },
+  {
+    "mrvparameter": "average_me_mcr_unit",
+    "standardparameter": "Avg_MCR_Unit"
+  },
+  {
+    "mrvparameter": "average_me_power",
+    "standardparameter": "Avg_ME_Power"
+  },
+  {
+    "mrvparameter": "average_me_power_unit",
+    "standardparameter": "Avg_ME_Power_Unit"
+  },
+  {
+    "mrvparameter": "average_slip",
+    "standardparameter": "Avg_Slip"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_",
+    "standardparameter": "Avg_Slip_Unit"
+  },
+  {
+    "mrvparameter": "fo_rob_at_noon",
+    "standardparameter": "FO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "fo_consumption",
+    "standardparameter": "FO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "me_fo_consumption",
+    "standardparameter": "ME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "ae_fo_consumption",
+    "standardparameter": "AE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "boiler_fo_consumption",
+    "standardparameter": "BLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_",
+    "standardparameter": "GO_in_Use_Sulphur_Content"
+  },
+  {
+    "mrvparameter": "go_rob_at_noon",
+    "standardparameter": "GO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "go_consumption",
+    "standardparameter": "GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "me_go_consumption",
+    "standardparameter": "MGOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "ae_go_consumption",
+    "standardparameter": "MGOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "boiler_go_consumption",
+    "standardparameter": "MGOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_",
+    "standardparameter": "DO_in_Use_Sulphur_Content"
+  },
+  {
+    "mrvparameter": "do_rob_at_noon",
+    "standardparameter": "DO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "do_consumption",
+    "standardparameter": "DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "me_do_consumption",
+    "standardparameter": "MDOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "ae_do_consumption",
+    "standardparameter": "MDOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "boiler_do_consumption",
+    "standardparameter": "MDOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fwg_product_from_last_report",
+    "standardparameter": "FW_Produced"
+  },
+  {
+    "mrvparameter": "fwg_product_from_last_report_unit",
+    "standardparameter": "FW_Produced_Unit"
+  },
+  {
+    "mrvparameter": "fw_consumption_from_last_report",
+    "standardparameter": "Total_FW_Consumed"
+  },
+  {
+    "mrvparameter": "fw_consumption_from_last_report_unit",
+    "standardparameter": "Total_FW_Consumed_Unit"
+  },
+  {
+    "mrvparameter": "fw_rob",
+    "standardparameter": "Remaining_On_Board_FW_In_MT"
+  },
+  {
+    "mrvparameter": "fw_rob_unit",
+    "standardparameter": "ROB_FW_Unit"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_cons_from_last_report_for_high_sulphur_fuel_oil_unit",
+    "standardparameter": "Total_ME_CYL_Oil_Consumed_High_Sulphur"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_cons_from_last_report_for_low_sulphur_fuel_oil_unit",
+    "standardparameter": "Total_ME_CYL_Oil_Consumed_High_Sulphur_Unit"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_noon_for_high_sulphur_fuel_oil",
+    "standardparameter": "Remaining_On_Board_ME_CYL_OIL_High_Sulphur_FO"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_noon_for_high_sulphur_fuel_oil_unit",
+    "standardparameter": "Remaining_On_Board_ME_CYL_OIL_High_Sulphur_FO_Unit"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_noon_for_low_sulphur_fuel_oil",
+    "standardparameter": "Remaining_On_Board_ME_CYL_OIL_Low_Sulphur_FO"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_noon_for_low_sulphur_fuel_oil_unit",
+    "standardparameter": "Remaining_On_Board_ME_CYL_OIL_Low_Sulphur_FO_Unit"
+  },
+  {
+    "mrvparameter": "me_power_developed",
+    "standardparameter": "ME_Power"
+  },
+  {
+    "mrvparameter": "me_power_developed_unit",
+    "standardparameter": "ME_Power_Unit"
+  },
+  {
+    "mrvparameter": "me_cfw_highest_temp",
+    "standardparameter": "ME_CFW_Highest_Temp"
+  },
+  {
+    "mrvparameter": "me_cfw_highest_temp_unit",
+    "standardparameter": "ME_CFW_Highest_Temp_Unit"
+  },
+  {
+    "mrvparameter": "me_cfw_lowest_temp",
+    "standardparameter": "ME_CFW_Lowest_Temp"
+  },
+  {
+    "mrvparameter": "me_cfw_lowest_temp_unit",
+    "standardparameter": "ME_CFW_Lowest_Temp_Unit"
+  },
+  {
+    "mrvparameter": "me_exh_highest_temp",
+    "standardparameter": "ME_EXH_Highest_Temp"
+  },
+  {
+    "mrvparameter": "me_exh_highest_temp_unit",
+    "standardparameter": "ME_EXH_Highest_Temp_Unit"
+  },
+  {
+    "mrvparameter": "me_exh_lowest_temp",
+    "standardparameter": "ME_EXH_Lowest_Temp"
+  },
+  {
+    "mrvparameter": "me_exh_lowest_temp_unit",
+    "standardparameter": "ME_EXH_Lowest_Temp_Unit"
+  },
+  {
+    "mrvparameter": "me_tc_rpm_no1",
+    "standardparameter": "No1_ME_TC_RPM"
+  },
+  {
+    "mrvparameter": "me_tc_rpm_no1_unit",
+    "standardparameter": "No1_ME_TC_RPM_Unit"
+  },
+  {
+    "mrvparameter": "me_tc_rpm_no2_unit",
+    "standardparameter": "No2_ME_TC_RPM_Unit"
+  },
+  {
+    "mrvparameter": "me_tc_exh_temp_in_no1",
+    "standardparameter": "No1_ME_TC_EXH_Temp_In"
+  },
+  {
+    "mrvparameter": "me_tc_exh_temp_in_no1_unit",
+    "standardparameter": "No1_ME_TC_EXH_Temp_In_Unit"
+  },
+  {
+    "mrvparameter": "me_tc_exh_temp_out_no1",
+    "standardparameter": "No1_ME_TC_EXH_Temp_Out"
+  },
+  {
+    "mrvparameter": "me_tc_exh_temp_out_no1_unit",
+    "standardparameter": "No1_ME_TC_EXH_Temp_Out_Unit"
+  },
+  {
+    "mrvparameter": "me_tc_exh_temp_in_no2_unit",
+    "standardparameter": "No2_ME_TC_EXH_Temp_In_Unit"
+  },
+  {
+    "mrvparameter": "me_tc_exh_temp_out_no2_unit",
+    "standardparameter": "No2_ME_TC_EXH_Temp_Out_Unit"
+  },
+  {
+    "mrvparameter": "me_scav_press",
+    "standardparameter": "ME_SCAV_PRESS"
+  },
+  {
+    "mrvparameter": "me_scav_press_unit",
+    "standardparameter": "ME_SCAV_PRESS_Unit"
+  },
+  {
+    "mrvparameter": "me_scav_temp",
+    "standardparameter": "ME_SCAV_TEMP"
+  },
+  {
+    "mrvparameter": "me_scav_temp_unit",
+    "standardparameter": "ME_SCAV_TEMP_Unit"
+  },
+  {
+    "mrvparameter": "me_fo_in_temp",
+    "standardparameter": "ME_FO_IN_TEMP"
+  },
+  {
+    "mrvparameter": "me_fo_in_temp_unit",
+    "standardparameter": "ME_FO_IN_TEMP_Unit"
+  },
+  {
+    "mrvparameter": "me_lo_in_temp",
+    "standardparameter": "ME_LO_IN_TEMP"
+  },
+  {
+    "mrvparameter": "me_lo_in_temp_unit",
+    "standardparameter": "ME_LO_IN_TEMP_Unit"
+  },
+  {
+    "mrvparameter": "me_aux_blower_run",
+    "standardparameter": "ME_Aux_Blower_Run_Status"
+  },
+  {
+    "mrvparameter": "me_aux_blower_mode",
+    "standardparameter": "ME_Aux_Blower_Run_Mode"
+  },
+  {
+    "mrvparameter": "electrical_load_ae_no1_unit",
+    "standardparameter": "AE1_Load"
+  },
+  {
+    "mrvparameter": "electrical_load_ae_no2_unit",
+    "standardparameter": "AE2_Load"
+  },
+  {
+    "mrvparameter": "electrical_load_ae_no3_unit",
+    "standardparameter": "AE3_Load"
+  },
+  {
+    "mrvparameter": "electrical_load_ae_no4_unit",
+    "standardparameter": "AE4_Load"
+  },
+  {
+    "mrvparameter": "er_temp",
+    "standardparameter": "Engine_Room_Temp"
+  },
+  {
+    "mrvparameter": "er_temp_unit",
+    "standardparameter": "Engine_Room_Temp_unit"
+  },
+  {
+    "mrvparameter": "temperature",
+    "standardparameter": "Temperature"
+  },
+  {
+    "mrvparameter": "true_course",
+    "standardparameter": "True_Course"
+  },
+  {
+    "mrvparameter": "true_course_unit",
+    "standardparameter": "True_Course_Unit"
+  },
+  {
+    "mrvparameter": "wind",
+    "standardparameter": "Wind_Speed"
+  },
+  {
+    "mrvparameter": "wind_unit",
+    "standardparameter": "Wind_Speed_Unit"
+  },
+  {
+    "mrvparameter": "wind_sea_height",
+    "standardparameter": "Wind_Sea_Height"
+  },
+  {
+    "mrvparameter": "wind_sea_height_unit",
+    "standardparameter": "Wind_Sea_Height_Unit"
+  },
+  {
+    "mrvparameter": "wind_sea_direction",
+    "standardparameter": "Wind_Sea_Direction"
+  },
+  {
+    "mrvparameter": "swell_height",
+    "standardparameter": "Swell_Height"
+  },
+  {
+    "mrvparameter": "swell_height_unit",
+    "standardparameter": "Swell_Height_Unit"
+  },
+  {
+    "mrvparameter": "swell_direction",
+    "standardparameter": "Swell_Direction"
+  },
+  {
+    "mrvparameter": "ship_masters_name",
+    "standardparameter": "Ship_Masters_Name"
+  },
+  {
+    "mrvparameter": "remarks",
+    "standardparameter": "Remarks"
+  },
+  {
+    "mrvparameter": "report_create_time",
+    "standardparameter": "Report_Create_Time"
+  },
+  {
+    "mrvparameter": "draft_fore",
+    "standardparameter": "Draft_FWD"
+  },
+  {
+    "mrvparameter": "draft_fore_unit",
+    "standardparameter": "Draft_FWD_Unit"
+  },
+  {
+    "mrvparameter": "draft_aft",
+    "standardparameter": "Draft_AFT"
+  },
+  {
+    "mrvparameter": "draft_aft_unit",
+    "standardparameter": "Draft_AFT_Unit"
+  },
+  {
+    "mrvparameter": "me_cfw_highest_temp_cyl_no",
+    "standardparameter": "Cyl_No_ME_CFW_Highest_Temp"
+  },
+  {
+    "mrvparameter": "me_cfw_lowest_temp_cyl_no",
+    "standardparameter": "Cyl_No_ME_CFW_Lowest_Temp"
+  },
+  {
+    "mrvparameter": "me_exh_highest_temp_cyl_no",
+    "standardparameter": "Cyl_No_ME_Exh_Highest_Temp"
+  },
+  {
+    "mrvparameter": "me_exh_lowest_temp_cyl_no",
+    "standardparameter": "Cyl_No_ME_Exh_Lowest_Temp"
+  },
+  {
+    "mrvparameter": "temperature_air",
+    "standardparameter": "Air_Temperature"
+  },
+  {
+    "mrvparameter": "temperature_air_unit",
+    "standardparameter": "Air_Temperature_Unit"
+  },
+  {
+    "mrvparameter": "temperature_sea",
+    "standardparameter": "Sea_Temperature"
+  },
+  {
+    "mrvparameter": "temperature_sea_unit",
+    "standardparameter": "Sea_Temperature_Unit"
+  },
+  {
+    "mrvparameter": "wind_true_direction",
+    "standardparameter": "Wind_True_Direction"
+  },
+  {
+    "mrvparameter": "wind_relative_direction",
+    "standardparameter": "Wind_Relative_Direction"
+  },
+  {
+    "mrvparameter": "latitude",
+    "standardparameter": "Latitude"
+  },
+  {
+    "mrvparameter": "longitude",
+    "standardparameter": "Longitude"
+  },
+  {
+    "mrvparameter": "wind_Beaufort_Number",
+    "standardparameter": "Beaufort_Number"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_rob_at_noon",
+    "standardparameter": "Remaining_On_Board_HFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_rob_at_noon",
+    "standardparameter": "Remaining_On_Board_LSFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_rob_at_noon",
+    "standardparameter": "Remaining_On_Board_VLSFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_rob_at_noon",
+    "standardparameter": "Remaining_On_Board_ULSFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_rob_at_noon",
+    "standardparameter": "Total_FO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_consumption",
+    "standardparameter": "Total_HFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_consumption",
+    "standardparameter": "Total_LSFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_consumption",
+    "standardparameter": "Total_VLSFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_consumption",
+    "standardparameter": "Total_ULSFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_consumption",
+    "standardparameter": "Total_FO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_me_fo_consumption",
+    "standardparameter": "Total_HFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_me_fo_consumption",
+    "standardparameter": "Total_LSFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_me_fo_consumption",
+    "standardparameter": "Total_VLSFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_me_fo_consumption",
+    "standardparameter": "Total_ULSFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_me_fo_consumption",
+    "standardparameter": "Total_ME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_ae_fo_consumption",
+    "standardparameter": "Total_HFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_ae_fo_consumption",
+    "standardparameter": "Total_LSFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_ae_fo_consumption",
+    "standardparameter": "Total_VLSFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_ae_fo_consumption",
+    "standardparameter": "Total_ULSFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_ae_fo_consumption",
+    "standardparameter": "Total_AE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_boiler_fo_consumption",
+    "standardparameter": "Total_HFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_boiler_fo_consumption",
+    "standardparameter": "Total_LSFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_boiler_fo_consumption",
+    "standardparameter": "Total_VLSFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_boiler_fo_consumption",
+    "standardparameter": "Total_ULSFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_boiler_fo_consumption",
+    "standardparameter": "Total_BLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_rob_at_noon",
+    "standardparameter": "Remaining_On_Board_MGO_Over(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_rob_at_noon",
+    "standardparameter": "Remaining_On_Board_MGO_MAX(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_rob_at_noon",
+    "standardparameter": "Remaining_On_Board_LSMGO_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_rob_at_noon",
+    "standardparameter": "Total_GO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_consumption",
+    "standardparameter": "Total_MGO_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_consumption",
+    "standardparameter": "Total_MGO_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_consumption",
+    "standardparameter": "Total_LSMGO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_consumption",
+    "standardparameter": "Total_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_me_go_consumption",
+    "standardparameter": "Total_MGOME_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_me_go_consumption",
+    "standardparameter": "Total_MGOME_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_me_go_consumption",
+    "standardparameter": "Total_LSMGOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_me_go_consumption",
+    "standardparameter": "Total_ME_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_ae_go_consumption",
+    "standardparameter": "Total_MGOAE_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_ae_go_consumption",
+    "standardparameter": "Total_MGOAE_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_ae_go_consumption",
+    "standardparameter": "Total_LSMGOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_ae_go_consumption",
+    "standardparameter": "Total_AE_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_boiler_go_consumption",
+    "standardparameter": "Total_MGOBLR_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_boiler_go_consumption",
+    "standardparameter": "Total_MGOBLR_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_boiler_go_consumption",
+    "standardparameter": "Total_LSMGOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_boiler_go_consumption",
+    "standardparameter": "Total_BLR_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_rob_at_noon",
+    "standardparameter": "Remaining_On_Board_MDO_Over(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_rob_at_noon",
+    "standardparameter": "Remaining_On_Board_MDO_MAX(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_rob_at_noon",
+    "standardparameter": "Remaining_On_Board_LSMDO_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_rob_at_noon",
+    "standardparameter": "Total_DO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_consumption",
+    "standardparameter": "Total_MDO_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_consumption",
+    "standardparameter": "Total_MDO_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_consumption",
+    "standardparameter": "Total_LSMDO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_consumption",
+    "standardparameter": "Total_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_me_do_consumption",
+    "standardparameter": "Total_MDOME_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_me_do_consumption",
+    "standardparameter": "Total_MDOME_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_me_do_consumption",
+    "standardparameter": "Total_LSMDOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_me_do_consumption",
+    "standardparameter": "Total_ME_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_ae_do_consumption",
+    "standardparameter": "Total_MDOAE_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_ae_do_consumption",
+    "standardparameter": "Total_MDOAE_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_ae_do_consumption",
+    "standardparameter": "Total_LSMDOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_ae_do_consumption",
+    "standardparameter": "Total_AE_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_boiler_do_consumption",
+    "standardparameter": "Total_MDOBLR_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_boiler_do_consumption",
+    "standardparameter": "Total_MDOBLR_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_boiler_do_consumption",
+    "standardparameter": "Total_LSMDOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_boiler_do_consumption",
+    "standardparameter": "Total_BLR_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "voyage_date",
+    "standardparameter": "Voyage_Date"
+  },
+  {
+    "mrvparameter": "time",
+    "standardparameter": "Report_Date_Time"
+  },
+  {
+    "mrvparameter": "time_at_commencement_of_anchoring",
+    "standardparameter": "Time_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "time_at_completion_of_anchoring",
+    "standardparameter": "Time_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "position_at_completion_of_anchoring",
+    "standardparameter": "Position_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_rob_at_commencement_of_anchoring",
+    "standardparameter": "FO_ROB_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_rob_at_completion_of_anchoring",
+    "standardparameter": "FO_ROB_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "go_rob_at_commencement_of_anchoring",
+    "standardparameter": "GO_ROB_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "go_rob_at_completion_of_anchoring",
+    "standardparameter": "GO_ROB_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "do_rob_at_commencement_of_anchoring",
+    "standardparameter": "GO_ROB_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "do_rob_at_completion_of_anchoring",
+    "standardparameter": "GO_ROB_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_HFO_In_MT_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_LSFO_In_MT_comm_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_VLSFO_In_MT_commencemnt_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_ULSFO_In_MT_commencemnt_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_Total_In_MT_commencemnt_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_HFO_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_LSFO_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_VLSFO_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_ULSFO_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_Total_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_GO_Over(0.5)_In_MT_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_GO_MAX(0.5)_In_MT_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_LSMGO_In_MT_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_rob_at_commencement_of_anchoring",
+    "standardparameter": "Total_GO_Remaining_On_Board_In_MT_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_GO_Over(0.5)_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_GO_MAX(0.5)_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_LSMGO_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_rob_at_completion_of_anchoring",
+    "standardparameter": "Total_GO_Remaining_On_Board_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_DO_Over(0.5)_In_MT_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_DO_MAX(0.5)_In_MT_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_rob_at_commencement_of_anchoring",
+    "standardparameter": "Remaining_On_Board_LSMDO_In_MT_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_rob_at_commencement_of_anchoring",
+    "standardparameter": "Total_DO_Remaining_On_Board_In_MT_Commencement_of_Anchoring"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_DO_Over(0.5)_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_DO_MAX(0.5)_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_rob_at_completion_of_anchoring",
+    "standardparameter": "Remaining_On_Board_LSMDO_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_rob_at_completion_of_anchoring",
+    "standardparameter": "Total_DO_Remaining_On_Board_In_MT_Completion_of_Anchoring"
+  },
+  {
+    "mrvparameter": "status",
+    "standardparameter": "Status"
+  },
+  {
+    "mrvparameter": "last_port_name",
+    "standardparameter": "Start_Port"
+  },
+  {
+    "mrvparameter": "last_port_code",
+    "standardparameter": "Start_Port_Code"
+  },
+  {
+    "mrvparameter": "time_at_departure_of_last_port",
+    "standardparameter": "Departure_Time"
+  },
+  {
+    "mrvparameter": "arrival_port_name",
+    "standardparameter": "Next_Port"
+  },
+  {
+    "mrvparameter": "arrival_port_code",
+    "standardparameter": "Next_Port_Code"
+  },
+  {
+    "mrvparameter": "time_at_arrival",
+    "standardparameter": "Arrival_Time"
+  },
+  {
+    "mrvparameter": "position_at_arrival",
+    "standardparameter": "Vessel_Position"
+  },
+  {
+    "mrvparameter": "time_spent_exclude_anchoring",
+    "standardparameter": "Anchoring_Exclude_Spent_Time"
+  },
+  {
+    "mrvparameter": "anchoring_elapsed_time",
+    "standardparameter": "Anchoring_Elapsed_Time"
+  },
+  {
+    "mrvparameter": "distance",
+    "standardparameter": "Distance"
+  },
+  {
+    "mrvparameter": "distance_unit",
+    "standardparameter": "Distance_Unit"
+  },
+  {
+    "mrvparameter": "fo_rob_at_arrival",
+    "standardparameter": "FO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "fo_consumption_from_departure_to_arrival",
+    "standardparameter": "FO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_rob_at_arrival",
+    "standardparameter": "GO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "go_consumption_from_departure_to_arrival",
+    "standardparameter": "GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_rob_at_arrival",
+    "standardparameter": "DO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "do_consumption_from_departure_to_arrival",
+    "standardparameter": "DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_rob_at_arrival",
+    "standardparameter": "Remaining_On_Board_HFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_rob_at_arrival",
+    "standardparameter": "Remaining_On_Board_LSFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_rob_at_arrival",
+    "standardparameter": "Remaining_On_Board_VLSFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_rob_at_arrival",
+    "standardparameter": "Remaining_On_Board_ULSFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_rob_at_arrival",
+    "standardparameter": "Total_FO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_HFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_LSFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_VLSFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_ULSFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_FO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_rob_at_arrival",
+    "standardparameter": "Remaining_On_Board_MGO_Over(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_rob_at_arrival",
+    "standardparameter": "Remaining_On_Board_MGO_MAX(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_rob_at_arrival",
+    "standardparameter": "Remaining_On_Board_LSMGO_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_rob_at_arrival",
+    "standardparameter": "Total_GO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_MGO_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_MGO_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_LSMGO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_rob_at_arrival",
+    "standardparameter": "Remaining_On_Board_MDO_Over(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_rob_at_arrival",
+    "standardparameter": "Remaining_On_Board_MDO_MAX(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_rob_at_arrival",
+    "standardparameter": "Remaining_On_Board_LSMDO_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_rob_at_arrival",
+    "standardparameter": "Total_DO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_MDO_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_MDO_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_LSMDO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_consumption_from_departure_to_arrival",
+    "standardparameter": "Total_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "time_at_sb_eng",
+    "standardparameter": "Report_Date_Time"
+  },
+  {
+    "mrvparameter": "position_at_sb_eng",
+    "standardparameter": "Vessel_Position"
+  },
+  {
+    "mrvparameter": "arrival_draft",
+    "standardparameter": "Draft_Arrival"
+  },
+  {
+    "mrvparameter": "displacement",
+    "standardparameter": "Displacement"
+  },
+  {
+    "mrvparameter": "displacement_unit",
+    "standardparameter": "Displacement_Unit"
+  },
+  {
+    "mrvparameter": "steaming_distlast_report_to_sb_eng",
+    "standardparameter": "Distance"
+  },
+  {
+    "mrvparameter": "steaming_distlast_report_to_sb_eng_unit",
+    "standardparameter": "Distance_Unit"
+  },
+  {
+    "mrvparameter": "steaming_time_last_report_to_sb_eng",
+    "standardparameter": "ME_Running_Hrs"
+  },
+  {
+    "mrvparameter": "average_speed_last_report_to_sb_eng",
+    "standardparameter": "Avg_Speed"
+  },
+  {
+    "mrvparameter": "average_speed_last_report_to_sb_eng_unit",
+    "standardparameter": "Avg_Speed_Unit"
+  },
+  {
+    "mrvparameter": "total_steaming_distrup_eng_to_sb_eng",
+    "standardparameter": "Dist_RuP_Eng_To_SBE_Engine"
+  },
+  {
+    "mrvparameter": "total_steaming_distrup_eng_to_sb_eng_unit",
+    "standardparameter": "Unit_of_Dist_RUP_Eng_To_SBE_Engine"
+  },
+  {
+    "mrvparameter": "total_steaming_time_rup_eng_to_sb_eng",
+    "standardparameter": "Time_RuP_Eng_To_SBE_Engine"
+  },
+  {
+    "mrvparameter": "average_rpm_last_report_to_sb_eng",
+    "standardparameter": "Avg_RPM"
+  },
+  {
+    "mrvparameter": "average_rpm_last_report_to_sb_eng_unit",
+    "standardparameter": "Avg_RPM_Unit"
+  },
+  {
+    "mrvparameter": "average_me_mcr_last_report_to_sb_eng",
+    "standardparameter": "Avg_MCR"
+  },
+  {
+    "mrvparameter": "average_me_mcr_last_report_to_sb_eng_unit",
+    "standardparameter": "Avg_MCR_Unit"
+  },
+  {
+    "mrvparameter": "average_me_power_last_report_to_sb_eng",
+    "standardparameter": "Avg_ME_Power"
+  },
+  {
+    "mrvparameter": "average_me_power_last_report_to_sb_eng_unit",
+    "standardparameter": "Avg_ME_Power_Unit"
+  },
+  {
+    "mrvparameter": "average_slip_last_report_to_sb_eng",
+    "standardparameter": "Avg_Slip"
+  },
+  {
+    "mrvparameter": "fo_rob_at_sb_eng",
+    "standardparameter": "FO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "me_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "ME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "ae_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "AE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "boiler_fo_conslast_report_to_sb_eng",
+    "standardparameter": "BLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_rob_at_sb_eng",
+    "standardparameter": "DO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "me_do_cons_last_report_to_sb_eng",
+    "standardparameter": "MDOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "ae_do_cons_last_report_to_sb_eng",
+    "standardparameter": "MDOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "boiler_do_conslast_report_to_sb_eng",
+    "standardparameter": "MDOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_rob_at_sb_eng",
+    "standardparameter": "GO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "me_go_cons_last_report_to_sb_eng",
+    "standardparameter": "MGOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "ae_go_cons_last_report_to_sb_eng",
+    "standardparameter": "MGOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "boiler_go_conslast_report_to_sb_eng",
+    "standardparameter": "MGOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_sb_eng_for_high_sulphur_fuel_oil_unit",
+    "standardparameter": "Total_ME_CYL_Oil_Consumed_High_Sulphur_Unit"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_sb_eng_for_low_sulphur_fuel_oil",
+    "standardparameter": "Total_ME_CYL_Oil_Consumed_Low_Sulphur"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_sb_eng_for_low_sulphur_fuel_oil_unit",
+    "standardparameter": "Total_ME_CYL_Oil_Consumed_Low_Sulphur_Unit"
+  },
+  {
+    "mrvparameter": "me_system_oil_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_ME_System_Oil"
+  },
+  {
+    "mrvparameter": "me_system_oil_rob_at_sb_eng_unit",
+    "standardparameter": "Remaining_On_Board_ME_System_Oil_Unit"
+  },
+  {
+    "mrvparameter": "ge_system_oil_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_AE_System_Oil"
+  },
+  {
+    "mrvparameter": "ge_system_oil_rob_at_sb_eng_unit",
+    "standardparameter": "Remaining_On_Board_AE_System_Oil_Unit"
+  },
+  {
+    "mrvparameter": "fw_rob_at_sb_eng",
+    "standardparameter": "Total_FW_Consumed_Unit"
+  },
+  {
+    "mrvparameter": "fw_rob_at_sb_eng_unit",
+    "standardparameter": "Remaining_On_Board_FW_In_MT"
+  },
+  {
+    "mrvparameter": "etd_from_berth",
+    "standardparameter": "ETD_From_Berth"
+  },
+  {
+    "mrvparameter": "arrival_draft_fore",
+    "standardparameter": "Draft_FWD"
+  },
+  {
+    "mrvparameter": "arrival_draft_fore_unit",
+    "standardparameter": "Draft_FWD_Unit"
+  },
+  {
+    "mrvparameter": "arrival_draft_aft",
+    "standardparameter": "Draft_AFT"
+  },
+  {
+    "mrvparameter": "arrival_draft_aft_unit",
+    "standardparameter": "Draft_AFT_Unit"
+  },
+  {
+    "mrvparameter": "arrival_draft_mid",
+    "standardparameter": "Draft_Mid"
+  },
+  {
+    "mrvparameter": "arrival_draft_mid_unit",
+    "standardparameter": "Draft_Mid_Unit"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_HFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_LSFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_VLSFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_ULSFO_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_rob_at_sb_eng",
+    "standardparameter": "Total_FO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_me_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_HFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_me_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_LSFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_me_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_VLSFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_me_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_ULSFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_me_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_ME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_ae_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_HFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_ae_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_LSFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_ae_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_VLSFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_ae_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_ULSFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_ae_fo_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_AE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_boiler_fo_conslast_report_to_sb_eng",
+    "standardparameter": "Total_HFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_boiler_fo_conslast_report_to_sb_eng",
+    "standardparameter": "Total_LSFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_boiler_fo_conslast_report_to_sb_eng",
+    "standardparameter": "Total_VLSFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_boiler_fo_conslast_report_to_sb_eng",
+    "standardparameter": "Total_ULSFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_boiler_fo_conslast_report_to_sb_eng",
+    "standardparameter": "Total_BLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_MDO_Over(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_MDO_MAX(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_LSMDO_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_rob_at_sb_eng",
+    "standardparameter": "Total_DO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_me_do_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_MDOME_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_me_do_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_MDOME_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_me_do_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_LSMDOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_me_do_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_ME_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_ae_do_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_MDOAE_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_ae_do_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_MDOAE_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_ae_do_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_LSMDOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_ae_do_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_AE_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_boiler_do_conslast_report_to_sb_eng",
+    "standardparameter": "Total_MDOBLR_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_boiler_do_conslast_report_to_sb_eng",
+    "standardparameter": "Total_MDOBLR_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_boiler_do_conslast_report_to_sb_eng",
+    "standardparameter": "Total_LSMDOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_boiler_do_conslast_report_to_sb_eng",
+    "standardparameter": "Total_BLR_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_MGO_Over(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_MGO_MAX(0.5)_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_rob_at_sb_eng",
+    "standardparameter": "Remaining_On_Board_LSMGO_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_rob_at_sb_eng",
+    "standardparameter": "Total_GO_Remaining_On_Board_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_me_go_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_MGOME_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_me_go_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_MGOME_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_me_go_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_LSMGOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_me_go_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_ME_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_ae_go_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_MGOAE_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_ae_go_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_MGOAE_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_ae_go_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_LSMGOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_ae_go_cons_last_report_to_sb_eng",
+    "standardparameter": "Total_AE_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_boiler_go_conslast_report_to_sb_eng",
+    "standardparameter": "Total_MGOBLR_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_boiler_go_conslast_report_to_sb_eng",
+    "standardparameter": "Total_MGOBLR_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_boiler_go_conslast_report_to_sb_eng",
+    "standardparameter": "Total_LSMGOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_boiler_go_conslast_report_to_sb_eng",
+    "standardparameter": "Total_BLR_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "time_at_noon_utc",
+    "standardparameter": "Report_Date_Time"
+  },
+  {
+    "mrvparameter": "current_port_name",
+    "standardparameter": "Start_Port"
+  },
+  {
+    "mrvparameter": "current_port_code",
+    "standardparameter": "Start_Port_Code"
+  },
+  {
+    "mrvparameter": "port_facility_name",
+    "standardparameter": "Port_Facility_Name"
+  },
+  {
+    "mrvparameter": "etb",
+    "standardparameter": "ETB"
+  },
+  {
+    "mrvparameter": "actual_time_of_berthing",
+    "standardparameter": "Actual_Time_Of_Berthing"
+  },
+  {
+    "mrvparameter": "etd",
+    "standardparameter": "ETD_From_Berth"
+  },
+  {
+    "mrvparameter": "fo_consumption_from_last_report",
+    "standardparameter": "FO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "me_fo_consumption_from_last_report",
+    "standardparameter": "ME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "ae_fo_consumption_from_last_report",
+    "standardparameter": "AE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "boiler_fo_consumption_from_last_report",
+    "standardparameter": "BLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_consumption_from_last_report",
+    "standardparameter": "GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "me_go_consumption_from_last_report",
+    "standardparameter": "MGOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "ae_go_consumption_from_last_report",
+    "standardparameter": "MGOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "boiler_go_consumption_from_last_report",
+    "standardparameter": "MGOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_consumption_from_last_report",
+    "standardparameter": "DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "me_do_consumption_from_last_report",
+    "standardparameter": "MDOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "ae_do_consumption_from_last_report",
+    "standardparameter": "MDOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "boiler_do_consumption_from_last_report",
+    "standardparameter": "MDOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "cargo_operation",
+    "standardparameter": "Cargo_Operation"
+  },
+  {
+    "mrvparameter": "total_cargo",
+    "standardparameter": "Total_Cargo"
+  },
+  {
+    "mrvparameter": "qty_loaddischd_last_24hrs",
+    "standardparameter": "Quantity_Loaded_Discharge"
+  },
+  {
+    "mrvparameter": "balance_to_loaddisch",
+    "standardparameter": "Balance_To_Load_Discharge"
+  },
+  {
+    "mrvparameter": "crane_usage",
+    "standardparameter": "Cargo_Usage"
+  },
+  {
+    "mrvparameter": "crane_running_last_24hrs_no1",
+    "standardparameter": "Crane_NO1_Running_Hrs"
+  },
+  {
+    "mrvparameter": "crane_running_last_24hrs_no2",
+    "standardparameter": "Crane_NO2_Running_Hrs"
+  },
+  {
+    "mrvparameter": "crane_running_last_24hrs_no3",
+    "standardparameter": "Crane_NO3_Running_Hrs"
+  },
+  {
+    "mrvparameter": "crane_running_last_24hrs_no4",
+    "standardparameter": "Crane_NO4_Running_Hrs"
+  },
+  {
+    "mrvparameter": "fw_dw_rob",
+    "standardparameter": "Remaining_On_Board_Drinking_Water"
+  },
+  {
+    "mrvparameter": "running_hours_of_ae_no1",
+    "standardparameter": "AE1_Running_Hrs"
+  },
+  {
+    "mrvparameter": "running_hours_of_ae_no2",
+    "standardparameter": "AE2_Running_Hrs"
+  },
+  {
+    "mrvparameter": "running_hours_of_ae_no3",
+    "standardparameter": "AE3_Running_Hrs"
+  },
+  {
+    "mrvparameter": "running_hours_of_ae_no4",
+    "standardparameter": "AE4_Running_Hrs"
+  },
+  {
+    "mrvparameter": "elect_load_of_ae_no1_unit",
+    "standardparameter": "AE1_Load_Unit"
+  },
+  {
+    "mrvparameter": "elect_load_of_ae_no2_unit",
+    "standardparameter": "AE2_Load_Unit"
+  },
+  {
+    "mrvparameter": "elect_load_of_ae_no3_unit",
+    "standardparameter": "AE3_Load_Unit"
+  },
+  {
+    "mrvparameter": "elect_load_of_ae_no4_unit",
+    "standardparameter": "AE4_Load_Unit"
+  },
+  {
+    "mrvparameter": "dg_lo_press_no1_unit",
+    "standardparameter": "DG_LO_PRESS_NO1_Unit"
+  },
+  {
+    "mrvparameter": "dg_lo_press_no2",
+    "standardparameter": "DG_LO_PRESS_NO2"
+  },
+  {
+    "mrvparameter": "dg_lo_press_no3",
+    "standardparameter": "DG_LO_PRESS_NO3"
+  },
+  {
+    "mrvparameter": "dg_lo_press_no4",
+    "standardparameter": "DG_LO_PRESS_NO4"
+  },
+  {
+    "mrvparameter": "draft_mid",
+    "standardparameter": "Draft_Mid"
+  },
+  {
+    "mrvparameter": "draft_mid_unit",
+    "standardparameter": "Draft_Mid_Unit"
+  },
+  {
+    "mrvparameter": "fw_dw_rob_fw",
+    "standardparameter": "Remaining_On_Board_FW_In_MT"
+  },
+  {
+    "mrvparameter": "fw_dw_rob_fw_unit",
+    "standardparameter": "ROB_FW_Unit"
+  },
+  {
+    "mrvparameter": "fw_dw_rob_dw",
+    "standardparameter": "Remaining_On_Board_Drinking Water"
+  },
+  {
+    "mrvparameter": "fw_dw_rob_dw_unit",
+    "standardparameter": "Remaining_On_Board_Drinking Water_Unit"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_consumption_from_last_report",
+    "standardparameter": "Total_HFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_consumption_from_last_report",
+    "standardparameter": "Total_LSFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_consumption_from_last_report",
+    "standardparameter": "Total_VLSFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_consumption_from_last_report",
+    "standardparameter": "Total_ULSFO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_consumption_from_last_report",
+    "standardparameter": "Total_FO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_me_fo_consumption_from_last_report",
+    "standardparameter": "Total_HFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_me_fo_consumption_from_last_report",
+    "standardparameter": "Total_LSFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_me_fo_consumption_from_last_report",
+    "standardparameter": "Total_VLSFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_me_fo_consumption_from_last_report",
+    "standardparameter": "Total_ULSFOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_me_fo_consumption_from_last_report",
+    "standardparameter": "Total_ME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_ae_fo_consumption_from_last_report",
+    "standardparameter": "Total_HFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_ae_fo_consumption_from_last_report",
+    "standardparameter": "Total_LSFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_ae_fo_consumption_from_last_report",
+    "standardparameter": "Total_VLSFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_ae_fo_consumption_from_last_report",
+    "standardparameter": "Total_ULSFOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_ae_fo_consumption_from_last_report",
+    "standardparameter": "Total_AE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_boiler_fo_consumption_from_last_report",
+    "standardparameter": "Total_HFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_boiler_fo_consumption_from_last_report",
+    "standardparameter": "Total_LSFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_boiler_fo_consumption_from_last_report",
+    "standardparameter": "Total_VLSFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_boiler_fo_consumption_from_last_report",
+    "standardparameter": "Total_ULSFOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_boiler_fo_consumption_from_last_report",
+    "standardparameter": "Total_BLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_consumption_from_last_report",
+    "standardparameter": "Total_MGO_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_consumption_from_last_report",
+    "standardparameter": "Total_MGO_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_consumption_from_last_report",
+    "standardparameter": "Total_LSMGO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_consumption_from_last_report",
+    "standardparameter": "Total_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_me_go_consumption_from_last_report",
+    "standardparameter": "Total_MGOME_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_me_go_consumption_from_last_report",
+    "standardparameter": "Total_MGOME_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_me_go_consumption_from_last_report",
+    "standardparameter": "Total_LSMGOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_me_go_consumption_from_last_report",
+    "standardparameter": "Total_ME_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_ae_go_consumption_from_last_report",
+    "standardparameter": "Total_MGOAE_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_ae_go_consumption_from_last_report",
+    "standardparameter": "Total_MGOAE_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_ae_go_consumption_from_last_report",
+    "standardparameter": "Total_LSMGOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_ae_go_consumption_from_last_report",
+    "standardparameter": "Total_AE_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_boiler_go_consumption_from_last_report",
+    "standardparameter": "Total_MGOBLR_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_boiler_go_consumption_from_last_report",
+    "standardparameter": "Total_MGOBLR_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_boiler_go_consumption_from_last_report",
+    "standardparameter": "Total_LSMGOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_boiler_go_consumption_from_last_report",
+    "standardparameter": "Total_BLR_GO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_consumption_from_last_report",
+    "standardparameter": "Total_MDO_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_consumption_from_last_report",
+    "standardparameter": "Total_MDO_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_consumption_from_last_report",
+    "standardparameter": "Total_LSMDO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_consumption_from_last_report",
+    "standardparameter": "Total_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_me_do_consumption_from_last_report",
+    "standardparameter": "Total_MDOME_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_me_do_consumption_from_last_report",
+    "standardparameter": "Total_MDOME_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_me_do_consumption_from_last_report",
+    "standardparameter": "Total_LSMDOME_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_me_do_consumption_from_last_report",
+    "standardparameter": "Total_ME_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_ae_do_consumption_from_last_report",
+    "standardparameter": "Total_MDOAE_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_ae_do_consumption_from_last_report",
+    "standardparameter": "Total_MDOAE_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_ae_do_consumption_from_last_report",
+    "standardparameter": "Total_LSMDOAE_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_ae_do_consumption_from_last_report",
+    "standardparameter": "Total_AE_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_boiler_do_consumption_from_last_report",
+    "standardparameter": "Total_MDOBLR_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_boiler_do_consumption_from_last_report",
+    "standardparameter": "Total_MDOBLR_MAX(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_boiler_do_consumption_from_last_report",
+    "standardparameter": "Total_LSMDOBLR_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_boiler_do_consumption_from_last_report",
+    "standardparameter": "Total_BLR_DO_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "bunkering_port_name",
+    "standardparameter": "Next_Port"
+  },
+  {
+    "mrvparameter": "bunkering_port_code",
+    "standardparameter": "Next_Port_Code"
+  },
+  {
+    "mrvparameter": "time_at_completion_of_bunkering",
+    "standardparameter": "Report_Date_Time"
+  },
+  {
+    "mrvparameter": "bdn_numbers",
+    "standardparameter": "BDN_Number"
+  },
+  {
+    "mrvparameter": "received_quantity_of_fo",
+    "standardparameter": "Received_Quantity_Of_FO_Bunker"
+  },
+  {
+    "mrvparameter": "received_quantity_of_go",
+    "standardparameter": "Received_Quantity_Of_GO_Bunker"
+  },
+  {
+    "mrvparameter": "received_quantity_of_do",
+    "standardparameter": "Received_Quantity_Of_DO_Bunker"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_received_quantity_of_fo",
+    "standardparameter": "Received_Quantity_Of_HFO_Bunker"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_received_quantity_of_fo",
+    "standardparameter": "Received_Quantity_Of_LSFO_Bunker"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_received_quantity_of_fo",
+    "standardparameter": "Received_Quantity_Of_VLSFO_Bunker"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_received_quantity_of_fo",
+    "standardparameter": "Received_Quantity_Of_ULSFO_Bunker"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_received_quantity_of_fo",
+    "standardparameter": "Total_Received_Quantity_Of_FO_Bunker"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_received_quantity_of_go",
+    "standardparameter": "Received_Quantity_Of_MGO_Over(0.5)_Bunker"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_received_quantity_of_go",
+    "standardparameter": "Received_Quantity_Of_MGO_MAX(0.5)_Bunker"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_received_quantity_of_go",
+    "standardparameter": "Received_Quantity_Of_LSMGO_Bunker"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_received_quantity_of_go",
+    "standardparameter": "Total_Received_Quantity_Of_GO_Bunker"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_received_quantity_of_do",
+    "standardparameter": "Received_Quantity_Of_MDO_Over(0.5)_Bunker"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_received_quantity_of_do",
+    "standardparameter": "Received_Quantity_Of_MDO_MAX(0.5)_Bunker"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_received_quantity_of_do",
+    "standardparameter": "Received_Quantity_Of_LSMDO_Bunker"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_received_quantity_of_do",
+    "standardparameter": "Total_Received_Quantity_Of_DO_Bunker"
+  },
+  {
+    "mrvparameter": "loadingdischarging_port_name",
+    "standardparameter": "Loading_Discharging_Port_Name"
+  },
+  {
+    "mrvparameter": "loadingdischarging_port_code",
+    "standardparameter": "Loading_Discharging_Port_Code"
+  },
+  {
+    "mrvparameter": "time_at_completion_of_loadingdischarging",
+    "standardparameter": "Loading_Discharging_Time"
+  },
+  {
+    "mrvparameter": "reason_of_drifting",
+    "standardparameter": "Reason_Of_Drifting"
+  },
+  {
+    "mrvparameter": "time_at_commencement_of_drifting",
+    "standardparameter": "Drifting_Time"
+  },
+  {
+    "mrvparameter": "position_at_commencement_of_drifting",
+    "standardparameter": "Drifting_Position"
+  },
+  {
+    "mrvparameter": "time_at_completion_of_drifting",
+    "standardparameter": "Drifting_Completion_Time"
+  },
+  {
+    "mrvparameter": "position_at_completion_of_drifting",
+    "standardparameter": "Drifting_Completion_Position"
+  },
+  {
+    "mrvparameter": "distance_travelled_during_drifting",
+    "standardparameter": "Distance"
+  },
+  {
+    "mrvparameter": "distance_travelled_during_drifting_unit",
+    "standardparameter": "Distance_Unit"
+  },
+  {
+    "mrvparameter": "fo_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_FO _Commencement_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_FO _Completion_of_Drfiting"
+  },
+  {
+    "mrvparameter": "go_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_GO _Commencement of Drfiting"
+  },
+  {
+    "mrvparameter": "go_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_GO _Completion_of_Drfiting"
+  },
+  {
+    "mrvparameter": "do_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_DO _Commencement_of_Drfiting"
+  },
+  {
+    "mrvparameter": "do_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_DO _Completion_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_HFO_Commencement_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_LFO_Commencement_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_VLSFO_Commencement_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_ULSFO_Commencement_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_Total FO_Commencement_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_HFO_Completion_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_LFO_Completion_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_VLSFO_Completion_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_ULSFO_Completion_of_Drfiting"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_Total FO_Completion_of_Drfiting"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_GO_Over(0.5) Bunker_Commencement_of_Bunkering"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_GO_Max(0.5) Bunker_Commencement_of_Bunkering"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_LSMGO_ Bunker_Commencement_of_Bunkering"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_Total GO_ Bunker_Commencement_of_Bunkering"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_GO_Over(0.5) Bunker_Completion_of_Bunkering"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_GO_Max(0.5) Bunker_Completion_of_Bunkering"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_LSMGO_ Bunker_Completion_of_Bunkering"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_Total GO_ Bunker_Completion_of_Bunkering"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_DO_Over(0.5) Bunker_Commencement_of_Bunkering"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_DO_Max(0.5) Bunker_Commencement_of_Bunkering"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_LSMDO_ Bunker_Commencement_of_Bunkering"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_rob_at_commencement_of_drifting",
+    "standardparameter": "Remaining_On_Board_Total DO_ Bunker_Commencement_of_Bunkering"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_DO_Over(0.5) Bunker_Completion_of_Bunkering"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_DO_Max(0.5) Bunker_Completion_of_Bunkering"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_LSMDO_ Bunker_Completion_of_Bunkering"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_rob_at_completion_of_drifting",
+    "standardparameter": "Remaining_On_Board_Total DO_ Bunker_Completion_of_Bunkering"
+  },
+  {
+    "mrvparameter": "arrived_time_at_the_first_berth_of_current_port",
+    "standardparameter": "Arrival_Time"
+  },
+  {
+    "mrvparameter": "time_at_departure_from_final_berth",
+    "standardparameter": "Departure_Time"
+  },
+  {
+    "mrvparameter": "time_spent_while_at_berths",
+    "standardparameter": "Berths_Spent_Time"
+  },
+  {
+    "mrvparameter": "time_at_rup_eng",
+    "standardparameter": "Report_Date_Time"
+  },
+  {
+    "mrvparameter": "position_at_rup_eng",
+    "standardparameter": "Vessel_Position"
+  },
+  {
+    "mrvparameter": "set_gyro_after_rup_eng",
+    "standardparameter": "Set_Gyro"
+  },
+  {
+    "mrvparameter": "set_gyro_after_rup_eng_unit",
+    "standardparameter": "Set_Gyro_Unit"
+  },
+  {
+    "mrvparameter": "destination_pilot_station_name",
+    "standardparameter": "Next_Port"
+  },
+  {
+    "mrvparameter": "destination_pilot_station_position",
+    "standardparameter": "Destination_Pilot_Station_Position"
+  },
+  {
+    "mrvparameter": "bunkered_at_departure_port",
+    "standardparameter": "Bunkered_At_Departure_Port"
+  },
+  {
+    "mrvparameter": "loadeddischarged_at_departure_port",
+    "standardparameter": "Loaded_Discharged_At_Departure_Port"
+  },
+  {
+    "mrvparameter": "name_of_cargo_primary",
+    "standardparameter": "Primary_Cargo_Name"
+  },
+  {
+    "mrvparameter": "primary_on_deck",
+    "standardparameter": "Primary_On_Deck"
+  },
+  {
+    "mrvparameter": "name_of_cargo_secondly",
+    "standardparameter": "Secondly_Cargo_Name"
+  },
+  {
+    "mrvparameter": "secondly_on_deck",
+    "standardparameter": "Secondly_On_Deck"
+  },
+  {
+    "mrvparameter": "name_of_cargo_if_undefined",
+    "standardparameter": "Cargo_Name_Undefined"
+  },
+  {
+    "mrvparameter": "cargo_weight",
+    "standardparameter": "Cargo_Weight"
+  },
+  {
+    "mrvparameter": "cargo_weight_unit",
+    "standardparameter": "Cargo_Weight_Unit"
+  },
+  {
+    "mrvparameter": "departure_draft",
+    "standardparameter": "Draft_Departure"
+  },
+  {
+    "mrvparameter": "gm",
+    "standardparameter": "GM"
+  },
+  {
+    "mrvparameter": "gm_unit",
+    "standardparameter": "GM_Unit"
+  },
+  {
+    "mrvparameter": "cp_speed",
+    "standardparameter": "CP_Speed"
+  },
+  {
+    "mrvparameter": "cp_speed_unit",
+    "standardparameter": "CP_Speed_Unit"
+  },
+  {
+    "mrvparameter": "cp_consumption_fo",
+    "standardparameter": "CP_Consumption_In_MT"
+  },
+  {
+    "mrvparameter": "cp_consumption_fo_unit",
+    "standardparameter": "CP_Consumption_In_MT_Unit"
+  },
+  {
+    "mrvparameter": "cp_consumption_go",
+    "standardparameter": "CP_GO_Consumption_In_MT"
+  },
+  {
+    "mrvparameter": "cp_consumption_go_unit",
+    "standardparameter": "CP_GO_Consumption_In_MT_Unit"
+  },
+  {
+    "mrvparameter": "cp_consumption_do",
+    "standardparameter": "CP_DO_Consumption_In_MT"
+  },
+  {
+    "mrvparameter": "cp_consumption_do_unit",
+    "standardparameter": "CP_DO_Consumption_In_MT_Unit"
+  },
+  {
+    "mrvparameter": "set_rpm_after_rup_eng",
+    "standardparameter": "RPM_Setting"
+  },
+  {
+    "mrvparameter": "set_rpm_after_rup_eng_unit",
+    "standardparameter": "RPM_Setting_Unit"
+  },
+  {
+    "mrvparameter": "maxmin_rpm_range",
+    "standardparameter": "MAX_RPM"
+  },
+  {
+    "mrvparameter": "unusable_rpm_range_1st",
+    "standardparameter": "Unusable_1st_RPM"
+  },
+  {
+    "mrvparameter": "unusable_rpm_range_2nd",
+    "standardparameter": "Unusable_2nd_RPM"
+  },
+  {
+    "mrvparameter": "fo_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_FO_Dep final Berth"
+  },
+  {
+    "mrvparameter": "fo_consumption_while_at_berths",
+    "standardparameter": "Cons_FO_At_Berths"
+  },
+  {
+    "mrvparameter": "fo_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_FO_RUP Engine"
+  },
+  {
+    "mrvparameter": "go_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_GO_Dep final Berth"
+  },
+  {
+    "mrvparameter": "go_consumption_while_at_berths",
+    "standardparameter": "Cons_GO_At_Berths"
+  },
+  {
+    "mrvparameter": "go_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_GO_RUP Engine"
+  },
+  {
+    "mrvparameter": "do_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_DO_Dep final Berth"
+  },
+  {
+    "mrvparameter": "do_consumption_while_at_berths",
+    "standardparameter": "Cons_DO_At_Berths"
+  },
+  {
+    "mrvparameter": "do_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_DO_RUP Engine"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_departure_for_high_sulphur_fuel_oil",
+    "standardparameter": "Total_ME_CYL_Oil_Consumed_High_Sulphur"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_departure_for_high_sulphur_fuel_oil_unit",
+    "standardparameter": "Total_ME_CYL_Oil_Consumed_High_Sulphur_Unit"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_departure_for_low_sulphur_fuel_oil",
+    "standardparameter": "Total_ME_CYL_Oil_Consumed_Low_Sulphur"
+  },
+  {
+    "mrvparameter": "me_cyl_oil_rob_at_departure_for_low_sulphur_fuel_oil_unit",
+    "standardparameter": "Total_ME_CYL_Oil_Consumed_Low_Sulphur_Unit"
+  },
+  {
+    "mrvparameter": "me_system_oil_rob_at_departure",
+    "standardparameter": "Remaining_On_Board_ME_System_Oil"
+  },
+  {
+    "mrvparameter": "me_system_oil_rob_at_departure_unit",
+    "standardparameter": "Remaining_On_Board_ME_System_Oil_Unit"
+  },
+  {
+    "mrvparameter": "ge_system_oil_rob_at_departure",
+    "standardparameter": "Remaining_On_Board_AE_System_Oil"
+  },
+  {
+    "mrvparameter": "ge_system_oil_rob_at_departure_unit",
+    "standardparameter": "Remaining_On_Board_AE_System_Oil_Unit"
+  },
+  {
+    "mrvparameter": "fw_rob_at_departure",
+    "standardparameter": "Remaining_On_Board_FW_In_MT"
+  },
+  {
+    "mrvparameter": "fw_rob_at_departure_unit",
+    "standardparameter": "ROB_FW_Unit"
+  },
+  {
+    "mrvparameter": "departure_draft_fore",
+    "standardparameter": "Draft_FWD"
+  },
+  {
+    "mrvparameter": "departure_draft_fore_unit",
+    "standardparameter": "Draft_FWD_Unit"
+  },
+  {
+    "mrvparameter": "departure_draft_aft",
+    "standardparameter": "Draft_AFT"
+  },
+  {
+    "mrvparameter": "departure_draft_aft_unit",
+    "standardparameter": "Draft_AFT_Unit"
+  },
+  {
+    "mrvparameter": "departure_draft_mid",
+    "standardparameter": "Draft_Mid"
+  },
+  {
+    "mrvparameter": "departure_draft_mid_unit",
+    "standardparameter": "Draft_Mid_Unit"
+  },
+  {
+    "mrvparameter": "maxmin_rpm_range_max",
+    "standardparameter": "MAX_RPM"
+  },
+  {
+    "mrvparameter": "maxmin_rpm_range_max_unit",
+    "standardparameter": "MAX_RPM_Unit"
+  },
+  {
+    "mrvparameter": "maxmin_rpm_range_min",
+    "standardparameter": "MIN_RPM"
+  },
+  {
+    "mrvparameter": "maxmin_rpm_range_min_unit",
+    "standardparameter": "MIN_RPM_Unit"
+  },
+  {
+    "mrvparameter": "unusable_rpm_range_1st_1st",
+    "standardparameter": "Unusable_1st_RPM"
+  },
+  {
+    "mrvparameter": "unusable_rpm_range_2nd_2nd",
+    "standardparameter": "Unusable_2nd_RPM"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_HFO_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_LFO_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_VLSFO_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_ULSFO_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_Total FO_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_consumption_while_at_berths",
+    "standardparameter": "Total_HFO_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_consumption_while_at_berths",
+    "standardparameter": "Total_LFO_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_consumption_while_at_berths",
+    "standardparameter": "Total_VLSFO_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_consumption_while_at_berths",
+    "standardparameter": "Total_ULSFO_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_consumption_while_at_berths",
+    "standardparameter": "Total_FO_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_over10_fo_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_HFO_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max10_fo_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_LFO_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max05_fo_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_VLSFO_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_max01_fo_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_ULSFO_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "fo_mt_sulphur_content_ttl_fo_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_Total FO_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_MGO_Over(0.5)_In_MT_AT_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_MGO_MAX(0.5)_In_MT_AT_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_LSMGO_In_MT_AT_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_rob_at_departure_from_final_berth",
+    "standardparameter": "Total_GO_Remaining_On_Board_In_MT_AT_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_consumption_while_at_berths",
+    "standardparameter": "Total_MGO_Over(0.5)_Consumed_In_MT"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_consumption_while_at_berths",
+    "standardparameter": "Total_MGO_MAX(0.5)_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_consumption_while_at_berths",
+    "standardparameter": "Total_LSMGO_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_consumption_while_at_berths",
+    "standardparameter": "Total_GO_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_over05_go_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_MGO_Over(0.5)_In_MT_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max05_go_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_MGO_MAX(0.5)_In_MT_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_max01_go_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_LSMGO_In_MT_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "go_mt_sulphur_content_ttl_go_rob_at_rup_eng",
+    "standardparameter": "Total_GO_Remaining_On_Board_In_MT_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_MDO_Over(0.5)_In_MT_AT_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_MDO_MAX(0.5)_In_MT_AT_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_rob_at_departure_from_final_berth",
+    "standardparameter": "Remaining_On_Board_LSMDO_In_MT_AT_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_rob_at_departure_from_final_berth",
+    "standardparameter": "Total_DO_Remaining_On_Board_In_MT_AT_Departure_From_Final_Berth"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_consumption_while_at_berths",
+    "standardparameter": "Total_MDO_Over(0.5)_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_consumption_while_at_berths",
+    "standardparameter": "Total_MDO_MAX(0.5)_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_consumption_while_at_berths",
+    "standardparameter": "Total_LSMDO_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_consumption_while_at_berths",
+    "standardparameter": "Total_DO_Consumed_In_MT_AT_Berth"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_over05_do_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_MDO_Over(0.5)_In_MT_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max05_do_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_MDO_MAX(0.5)_In_MT_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_max01_do_rob_at_rup_eng",
+    "standardparameter": "Remaining_On_Board_LSMDO_In_MT_AT_RuP_Eng"
+  },
+  {
+    "mrvparameter": "do_mt_sulphur_content_ttl_do_rob_at_rup_eng",
+    "standardparameter": "Total_DO_Remaining_On_Board_In_MT_AT_RuP_Eng"
+  }
+]

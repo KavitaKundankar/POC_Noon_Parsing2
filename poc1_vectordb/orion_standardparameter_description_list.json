@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Vessel_Name",
+    "description": "Name of the vessel as recorded in official documentation."
+  },
+  {
+    "name": "Report_Type",
+    "description": "Type of report submitted (e.g., Noon, Arrival, Departure)."
+  },
+  {
+    "name": "Total_VLSFOAX_Consumed_In_MT",
+    "description": "Total Very Low Sulphur Fuel Oil (VLSFO) consumed, in metric tons."
+  },
+  {
+    "name": "Total_VLSGOAX_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting."
+  },
+  {
+    "name": "Draft_FWD",
+    "description": "Forward draft of the vessel measured at the bow in meters."
+  },
+  {
+    "name": "Draft_AFT",
+    "description": "Aft draft of the vessel measured at the stern in meters."
+  },
+  {
+    "name": "Total_Live_HFO_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting."
+  },
+  {
+    "name": "Total_Live_Real_SFO_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting."
+  },
+  {
+    "name": "Voyage_Start_Date",
+    "description": "Date and time when the voyage commenced."
+  },
+  {
+    "name": "Report_Date_Time",
+    "description": "Timestamp when this report was generated or logged."
+  },
+  {
+    "name": "Latitude",
+    "description": "Latitude position of the vessel at the time of reporting."
+  },
+  {
+    "name": "Longitude",
+    "description": "Longitude position of the vessel at the time of reporting."
+  },
+  {
+    "name": "Voyage_Number",
+    "description": "Unique identifier assigned to this voyage."
+  },
+  {
+    "name": "Start_Port",
+    "description": "Port of origin or starting point of the vessel."
+  },
+  {
+    "name": "Final_Destination_Port",
+    "description": "Final intended destination port of the vessel."
+  },
+  {
+    "name": "Avg_Speed",
+    "description": "Average speed maintained by the vessel during this reporting period, in knots."
+  },
+  {
+    "name": "Average_Speed_Since_SOV",
+    "description": "Average vessel speed since start of voyage (SOV), in knots."
+  },
+  {
+    "name": "Distance",
+    "description": "Distance covered by the vessel during this report period, in nautical miles."
+  },
+  {
+    "name": "Distance_Covered_Since_SOV",
+    "description": "Distance covered by the vessel during this report period, in nautical miles."
+  },
+  {
+    "name": "Distance_Remaining_To_EOV",
+    "description": "Distance covered by the vessel during this report period, in nautical miles."
+  },
+  {
+    "name": "ME_Running_Hrs",
+    "description": "Main Engine running hours during this report period."
+  },
+  {
+    "name": "Total_ME_Running_Hrs_Since_SOV",
+    "description": "Main Engine running hours during this report period."
+  },
+  {
+    "name": "ME_RPM",
+    "description": "Main Engine revolutions per minute (RPM)."
+  },
+  {
+    "name": "Slip",
+    "description": "Propeller slip percentage derived from speed and RPM."
+  },
+  {
+    "name": "Wind_Speed",
+    "description": "wind speed will be a numbers, Measured wind speed at reporting time, in knots."
+  },
+  {
+    "name": "Sea_Height",
+    "description": "Observed height of the sea waves, in meters."
+  },
+  {
+    "name": "Swell_Height",
+    "description": "Observed height of ocean swells, in meters."
+  },
+  {
+    "name": "Douglas_Sea_State",
+    "description": "Sea condition rating as per Douglas Sea Scale."
+  },
+  {
+    "name": "Remaining_On_Board_HFO_In_MT",
+    "description": "rob_hfo,Q uantity of specific fuel or material remaining onboard, in metric tons (MT)."
+  },
+  {
+    "name": "Remaining_On_Board_VLSFO_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons."
+  },
+  {
+    "name": "Remaining_On_Board_VLSGO_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons."
+  },
+  {
+    "name": "Remaining_On_Board_ULSGO_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons."
+  },
+  {
+    "name": "Remaining_On_Board_MECYL_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons."
+  },
+  {
+    "name": "Remaining_On_Board_LSMECYL_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons."
+  },
+  {
+    "name": "Remaining_On_Board_MECC_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons."
+  },
+  {
+    "name": "Remaining_On_Board_AECC_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons."
+  },
+  {
+    "name": "Remaining_On_Board_FW_In_MT",
+    "description": "Quantity of fresh water remaining onboard, in metric tons."
+  },
+  {
+    "name": "Total_HFO_Consumed_In_MT",
+    "description": "Total heavy fuel oil (HFO) consumed during this reporting period, in metric tons."
+  },
+  {
+    "name": "Total_HFOME_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting."
+  },
+  {
+    "name": "Total_HFOAE_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting."
+  },
+  {
+    "name": "Total_HFOBLR_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting."
+  },
+  {
+    "name": "Total_VLSFO_Consumed_In_MT",
+    "description": "Total Very Low Sulphur Fuel Oil (VLSFO) consumed, in metric tons."
+  },
+  {
+    "name": "Total_VLSFOME_Consumed_In_MT",
+    "description": "Total Very Low Sulphur Fuel Oil (VLSFO) consumed, in metric tons."
+  },
+  {
+    "name": "Total_VLSFOBLR_Consumed_In_MT",
+    "description": "Total Very Low Sulphur Fuel Oil (VLSFO) consumed, in metric tons."
+  },
+  {
+    "name": "Total_VLSGO_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting."
+  },
+  {
+    "name": "Total_VLSGOME_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting."
+  },
+  {
+    "name": "Total_VLSGOBLR_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting."
+  },
+  {
+    "name": "Total_ULSGO_Consumed_In_MT",
+    "description": "Total Ultra Low Sulphur Gas Oil (ULSGO) consumed, in metric tons."
+  },
+  {
+    "name": "Total_ULSGOME_Consumed_In_MT",
+    "description": "Total Ultra Low Sulphur Gas Oil (ULSGO) consumed, in metric tons."
+  },
+  {
+    "name": "Total_ULSGOAE_Consumed_In_MT",
+    "description": "Total Ultra Low Sulphur Gas Oil (ULSGO) consumed, in metric tons."
+  },
+  {
+    "name": "Total_ULSGOBLR_Consumed_In_MT",
+    "description": "Total Ultra Low Sulphur Gas Oil (ULSGO) consumed, in metric tons."
+  },
+  {
+    "name": "Total_MECYL_Consumed_In_MT",
+    "description": "Total cylinder oil used for main engine lubrication, in metric tons."
+  },
+  {
+    "name": "Total_LSMECYL_Consumed_In_MT",
+    "description": "Total cylinder oil used for main engine lubrication, in metric tons."
+  },
+  {
+    "name": "Total_MECC_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting."
+  },
+  {
+    "name": "Total_AECC_Consumed_In_MT",
+    "description": "Total auxiliary engine cylinder oil consumption, in metric tons."
+  },
+  {
+    "name": "Total_FW_Consumed",
+    "description": "Freshwater consumption or remaining freshwater in metric tons."
+  },
+  {
+    "name": "ETA_Next_Port",
+    "description": "Estimated Time of Arrival at the next port of call."
+  },
+  {
+    "name": "Next_Port",
+    "description": "Name of the next port the vessel is heading to."
+  }
+]

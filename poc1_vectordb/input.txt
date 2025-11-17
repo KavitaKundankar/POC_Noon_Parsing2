@@ -1,0 +1,12 @@
+Vessel : EAGLE EXPRESS
+Report Date : 11 Nov 2025 12:00 / ShipTime : UTC +07:00
+Position : 13°49'59''N / : 109°28'5''E
+Voyage : V2512L /From : Dung Quat, VIET NAM to Futong, INDONESIA
+Steaming : AS/12.71 MAS/12.71 Dist Run/ : 108 : Total Dist Run/108NM : Dist To Go/1001 NM, Steaming Time/8.50 hrs Total Steaming Time/8.50 hrs : M/E RPM/104.00 Slip/ : 0.91
+Weather : Wind:4 BF scale /130 °T /H, Sea Height:1.50 M, Swell:0.50 M/110 °T, Douglas Sea State: 3
+ROB : HFO: 1150.24MT / VLSFO: 0.00MT/ VLSGO: 0.00MT / ULSGO: 84.94MT / MECYL: 25570.00 Ltr / LSMECYL: 0.00 Ltr / MECC: 13521.00 Ltr / AECC: 4439.00 Ltr/ FW: 286.00 MT
+Consumption : HFO: 8.65 (7.58, 1.07, 0.00) MT / VLSFO: 0.00 (0.00, 0.00, 0.00) MT/ VLSGO: 0.00 (0.00, 0.00, 0.00) MT / ULSGO: 0.00 (0.00, 0.00, 0.00) MT / MECYL: 90.00 Ltr,/ LSMECYL: 0.00 Ltr,/ MECC: 14.00 Ltr/ AECC: 6.00 Ltr/ FW: 5.00 MT
+Next Port : Futong, INDONESIA
+ETA Next Port : 15 Nov 2025 05:00
+Draft FWD : 10.72 / AFT : 10.78
+Remarks : NIL

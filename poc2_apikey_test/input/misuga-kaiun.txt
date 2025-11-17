@@ -1,0 +1,102 @@
+[== Start of Message]
+[Format Version                          : 6.45]
+[PortList Version                        : 20191010]
+[ESM Version                             : 3.3]
+[REPORT TYPE                             : INPORT NOON REPORT]
+[Vessel Name                             : MAINE SOLEIL]
+[IMO Number                              : 6789890]
+[Call Sign                               : 3E4048]
+[Voyage Number                           : 5678]
+[Weather                                 : O]
+[Wind                                    : 8knots, 3 Beaufort Number, SE]
+[Time at Noon (UTC)                      : 2025/Sep/28 19:00 UTC]
+[Position at Noon                        : 49-17.2N 123-13W]
+[Current Port Name                       : VANCOUVER / CANADA]
+[Current Port Code                       : VBC]
+[Port Facility Name                      : ENGLISH BAY ANCHORAGE]
+[Status                                  : ANCH]
+[ETB                                     : 2022/Sep/2 23:00 UTC]
+[Actual time of berthing                 : ]
+[ETD                                     : 2022/Sep/10 19:00 UTC]
+[Draft                                   : Fore:8.21m, Aft:10.48m, Mid:9.39m]
+[- FO (MT), Sulphur Content (%) -        : over1.0/max1.0/max0.5/max0.1/TTL]
+[FO ROB at Noon                          : / / 782.58/ / 782.58]
+[FO Consumption from Last Report         : / / 0/ / 0]
+[M/E FO Consumption from Last Report     : / / 0/ / 0]
+[A/E FO Consumption from Last Report     : / / 0/ / 0]
+[Boiler FO Consumption from Last Report  : / / 0/ / 0]
+[- GO (MT), Sulphur Content (%) -        : over0.5/max0.5/max0.1/TTL]
+[GO ROB at Noon                          : / / 90.00/ 90.00]
+[GO Consumption from Last Report         : / / 3.90/ 3.90]
+[M/E GO Consumption from Last Report     : / / 0.11/ 0.11]
+[A/E GO Consumption from Last Report     : / / 2.13/ 2.13]
+[Boiler GO Consumption from Last Report  : / / 1.66/ 1.66]
+[- DO (MT), Sulphur Content (%) -        : over0.5/max0.5/max0.1/TTL]
+[DO ROB at Noon                          : / / 0/ 0]
+[DO Consumption from Last Report         : / / / ]
+[M/E DO Consumption from Last Report     : / / / ]
+[A/E DO Consumption from Last Report     : / / / ]
+[Boiler DO Consumption from Last Report  : / / / ]
+[Cargo Operation                         : Loading]
+[Total Cargo                             : 27477MT/TEU]
+[Qty Load/dischd last 24hrs              : MT/TEU]
+[Balance to load/disch                   : 34698MT/TEU]
+[Crane usage                             : ]
+[Crane running last 24hrs (No.1)         : 00hours00minutes]
+[Crane running last 24hrs (No.2)         : 00hours00minutes]
+[Crane running last 24hrs (No.3)         : 00hours00minutes]
+[Crane running last 24hrs (No.4)         : 00hours00minutes]
+[FW Consumption from Last Report         : 10MT]
+[FW DW ROB                               : FW:70MT, DW:36MT]
+[Running Hours of A/E (No.1)             : 02hours00minutes]
+[Running Hours of A/E (No.2)             : 00hours00minutes]
+[Running Hours of A/E (No.3)             : 24hours00minutes]
+[Running Hours of A/E (No.4)             : 00hours00minutes]
+[Elect. Load of A/E (No.1)               : 170kW]
+[Elect. Load of A/E (No.2)               : kW]
+[Elect. Load of A/E (No.3)               : 180kW]
+[Elect. Load of A/E (No.4)               : kW]
+[D/G L.O. Press. (No.1)                  : 0.50Mpa]
+[D/G L.O. Press. (No.2)                  : ]
+[D/G L.O. Press. (No.3)                  : 0.51]
+[D/G L.O. Press. (No.4)                  : ]
+[Ship Master's Name                      : CAPT. WILFREDO C. MOOG]
+[Remarks                                 : Vessel currently in English Bay anchorage @ Vancouver, Canada w/ pilot. Proceeding to FGT Terminal for berthing.
+]
+[REPORT CREATE TIME                      : 2025/Sep/29 06:30 UTC]
+[== End of Message]
+
+The following code is for WNI system. Please do NOT edit it.
+WNI system utilize this encoded part only.
+It doesn't make sense for WNI system to edit above readable text part.
+
+[== Start of data]
+UEsDBAoAAAAIAM4zPVvBs/naVwQAAFMLAAAGAAAAcmVwb3J0pVZ/j9o4EP0q
+I6TTsRLrOD8IhP5zAQKLlhAOsosqnVS5YCDaEFMnabtX7Xe/cRJgu11atieQ
+g8fvzXhe7GG+1W44W9U632p3SfQp53DLH2udmuOYlqHbH3Rqt1ofbGI1PxjU
+aFLHcKhtUsOpNWozvhcyg1Ef8QUObT6LEgijHUebImjU0Yw26E6HUvzWnhq1
+rlg9qnje3Id7LtNIJAg2ialcetNgFkL4fuqhbTQpZpMgmEC5gpB7nqY8hgkr
+YvjuaOLBPBh7ozEujvwAJvnuI5enHNDcY3EM82hTBPIsarWVI/HINvwE11VO
+C86ybTEN1CxKUJpa+yERWdoAE7qc5WuVdMlqwNxDmMoXGBqFSKB+F/auDtnP
++f6YPuACgqcijTLM+UBAqOVc6y1iTEA3zGvdXKgd51LyJINpEazM9d6d9IK7
+e28GGvTcidt3XwJ7YlUAu2UgtAzYMoqj7PHgw5sMx6P5DXTd94DuboKZO1Qp
+zDOW5SkClBHnXth9kYNhnnJwl1nOYshU3mINqES2jZINMgpq/znVpN+l35ds
+neH6QEjeaRND3zXAXWcdnRKrjb/9aNVxiOnsEHsNgwDqfniFOufxfptLzDDJ
+VLr1P67gGt2Iz1zqhGo79rV6UNIsH7oWhupMoI9Z0H0mt4b6tdoGabZPv0oc
+ek/z3b54PWspdjBmaQblOa+ItBjUSdc8eCPFfTulK6KYy7eyrmF4iXBHqV4o
+NnxNMYcSSqtHiblgRyZxaDlWil1Gw63o5VipdhnNILpZjiflLmPqxLbLsVCv
+/3/U67+mHi1fTP+i3WhQqfUGuPs2eKXOGxg9JjcCgj2XLCtL9liwlbr1WABF
+huWgQKir37JaLT/UQu8O1/7G4qOQ2ipKl9sVxMq9YW2lqjZHVJfFLFlyyATE
+R7Cq1pbttI+onmQJhzzFul3WmtIg8yTBjTxzDfWJILoqw5RuRS5TSndRkmc8
+/RXJ+B2S+Tsk6wxpsPjVO9GpH5bA/kKdNVVOF50WWhto6Zh2sTyrwt6oAKpM
+qyNy0sX4IfBZwjlNzhIKPTDTiwnntPBivsxIcX5+yEBv0YfFeUyx6Z8Bik3q
+7Z86sY5O+toQxiQgMJXYgJBnQpIm9ffsDKTYxZk1s6LrZ9atijvfRnvw8QRw
++Wd6+CPvudOQwGI0Hsw8dYsJ+EEwLLqyHZMP6nJVndKy7BDiR8DWzEs2cZRu
+ocseAS/cVkjVA/0F9zgR+WfV0vRYwlYMvmiwj2KRqS2JJefqqqvrORhif8Yl
+viO88tgLHf/9yT/JqYPrzTw39CAc+d53fYQD1O6Yh2YgT7l0N7g5VQrEv1Ec
+M61JKNRV4yW+YLIhYGNA3wEabOsdfLWtK3D3+5gv+MfbKNOaZouYNtRvb0J/
+3IA4euAw5MsHcQW9Ld4crukWOlAfmLM1k1FFwejBHMMeIukUy9xhMucSpQCD
+6varVtUpdiXaik5xKMQm5lW82tPTf1BLAQIUAAoAAAAIAM4zPVvBs/naVwQA
+AFMLAAAGAAAAAAAAAAAAAAAAAAAAAAByZXBvcnRQSwUGAAAAAAEAAQA0AAAA
+ewQAAAAA
+[== End of data]

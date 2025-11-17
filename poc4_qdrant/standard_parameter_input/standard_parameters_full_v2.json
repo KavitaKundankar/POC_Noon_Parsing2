@@ -1,0 +1,524 @@
+[
+  {
+    "standard_key": "Vessel_Name",
+    "description": "Name of the vessel as recorded in official documentation.",
+    "variant": [
+      "Vessel Name",
+      "vessel_name",
+      "VESSEL_NAME"
+    ]
+  },
+  {
+    "standard_key": "Report_Type",
+    "description": "Type of report submitted (e.g., Noon, Arrival, Departure).",
+    "variant": [
+      "Report Type",
+      "report_type",
+      "REPORT_TYPE"
+    ]
+  },
+  {
+    "standard_key": "Total_VLSFOAX_Consumed_In_MT",
+    "description": "Total Very Low Sulphur Fuel Oil (VLSFO) consumed, in metric tons.",
+    "variant": [
+      "Total VLSFOAX Consumed In MT",
+      "total_vlsfoax_consumed_in_mt",
+      "TOTAL_VLSFOAX_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_VLSGOAX_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting.",
+    "variant": [
+      "Total VLSGOAX Consumed In MT",
+      "total_vlsgoax_consumed_in_mt",
+      "TOTAL_VLSGOAX_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Draft_FWD",
+    "description": "Forward draft of the vessel measured at the bow in meters.",
+    "variant": [
+      "Draft FWD",
+      "draft_fwd",
+      "DRAFT_FWD"
+    ]
+  },
+  {
+    "standard_key": "Draft_AFT",
+    "description": "Aft draft of the vessel measured at the stern in meters.",
+    "variant": [
+      "Draft AFT",
+      "draft_aft",
+      "DRAFT_AFT"
+    ]
+  },
+  {
+    "standard_key": "Total_Live_HFO_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting.",
+    "variant": [
+      "Total Live HFO Consumed In MT",
+      "total_live_hfo_consumed_in_mt",
+      "TOTAL_LIVE_HFO_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_Live_Real_SFO_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting.",
+    "variant": [
+      "Total Live Real SFO Consumed In MT",
+      "total_live_real_sfo_consumed_in_mt",
+      "TOTAL_LIVE_REAL_SFO_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Voyage_Start_Date",
+    "description": "Date and time when the voyage commenced.",
+    "variant": [
+      "Voyage Start Date",
+      "voyage_start_date",
+      "VOYAGE_START_DATE"
+    ]
+  },
+  {
+    "standard_key": "Report_Date_Time",
+    "description": "Timestamp when this report was generated or logged.",
+    "variant": [
+      "Report Date Time",
+      "report_date_time",
+      "REPORT_DATE_TIME"
+    ]
+  },
+  {
+    "standard_key": "Latitude",
+    "description": "Latitude position of the vessel at the time of reporting.",
+    "variant": [
+      "Latitude",
+      "latitude",
+      "LATITUDE"
+    ]
+  },
+  {
+    "standard_key": "Longitude",
+    "description": "Longitude position of the vessel at the time of reporting.",
+    "variant": [
+      "Longitude",
+      "longitude",
+      "LONGITUDE"
+    ]
+  },
+  {
+    "standard_key": "Voyage_Number",
+    "description": "Unique identifier assigned to this voyage.",
+    "variant": [
+      "Voyage Number",
+      "voyage_number",
+      "VOYAGE_NUMBER"
+    ]
+  },
+  {
+    "standard_key": "Start_Port",
+    "description": "Port of origin or departure of the vessel.",
+    "variant": [
+      "Start Port",
+      "start_port",
+      "START_PORT"
+    ]
+  },
+  {
+    "standard_key": "Final_Destination_Port",
+    "description": "Final intended destination port of the vessel.",
+    "variant": [
+      "Final Destination Port",
+      "final_destination_port",
+      "FINAL_DESTINATION_PORT"
+    ]
+  },
+  {
+    "standard_key": "Avg_Speed",
+    "description": "Average speed maintained by the vessel during this reporting period, in knots.",
+    "variant": [
+      "Avg Speed",
+      "avg_speed",
+      "AVG_SPEED"
+    ]
+  },
+  {
+    "standard_key": "Average_Speed_Since_SOV",
+    "description": "Average vessel speed since start of voyage (SOV), in knots.",
+    "variant": [
+      "Average Speed Since SOV",
+      "average_speed_since_sov",
+      "AVERAGE_SPEED_SINCE_SOV"
+    ]
+  },
+  {
+    "standard_key": "Distance",
+    "description": "Distance covered by the vessel during this report period, in nautical miles.",
+    "variant": [
+      "Distance",
+      "distance",
+      "DISTANCE"
+    ]
+  },
+  {
+    "standard_key": "Distance_Covered_Since_SOV",
+    "description": "Distance covered by the vessel during this report period, in nautical miles.",
+    "variant": [
+      "Distance Covered Since SOV",
+      "distance_covered_since_sov",
+      "DISTANCE_COVERED_SINCE_SOV"
+    ]
+  },
+  {
+    "standard_key": "Distance_Remaining_To_EOV",
+    "description": "Distance covered by the vessel during this report period, in nautical miles.",
+    "variant": [
+      "Distance Remaining To EOV",
+      "distance_remaining_to_eov",
+      "DISTANCE_REMAINING_TO_EOV"
+    ]
+  },
+  {
+    "standard_key": "ME_Running_Hrs",
+    "description": "Main Engine running hours during this report period.",
+    "variant": [
+      "ME Running Hrs",
+      "me_running_hrs",
+      "ME_RUNNING_HRS"
+    ]
+  },
+  {
+    "standard_key": "Total_ME_Running_Hrs_Since_SOV",
+    "description": "Main Engine running hours during this report period.",
+    "variant": [
+      "Total ME Running Hrs Since SOV",
+      "total_me_running_hrs_since_sov",
+      "TOTAL_ME_RUNNING_HRS_SINCE_SOV"
+    ]
+  },
+  {
+    "standard_key": "ME_RPM",
+    "description": "Main Engine revolutions per minute (RPM).",
+    "variant": [
+      "ME RPM",
+      "me_rpm",
+      "ME_RPM"
+    ]
+  },
+  {
+    "standard_key": "Slip",
+    "description": "Propeller slip percentage derived from speed and RPM.",
+    "variant": [
+      "Slip",
+      "slip",
+      "SLIP"
+    ]
+  },
+  {
+    "standard_key": "Wind_Speed",
+    "description": "Measured wind speed at reporting time, in knots.",
+    "variant": [
+      "Wind Speed",
+      "wind_speed",
+      "WIND_SPEED"
+    ]
+  },
+  {
+    "standard_key": "Sea_Height",
+    "description": "Observed height of the sea waves, in meters.",
+    "variant": [
+      "Sea Height",
+      "sea_height",
+      "SEA_HEIGHT"
+    ]
+  },
+  {
+    "standard_key": "Swell_Height",
+    "description": "Observed height of ocean swells, in meters.",
+    "variant": [
+      "Swell Height",
+      "swell_height",
+      "SWELL_HEIGHT"
+    ]
+  },
+  {
+    "standard_key": "Douglas_Sea_State",
+    "description": "Sea condition rating as per Douglas Sea Scale.",
+    "variant": [
+      "Douglas Sea State",
+      "douglas_sea_state",
+      "DOUGLAS_SEA_STATE"
+    ]
+  },
+  {
+    "standard_key": "Remaining_On_Board_HFO_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons.",
+    "variant": [
+      "Remaining On Board HFO In MT",
+      "remaining_on_board_hfo_in_mt",
+      "REMAINING_ON_BOARD_HFO_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Remaining_On_Board_VLSFO_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons.",
+    "variant": [
+      "Remaining On Board VLSFO In MT",
+      "remaining_on_board_vlsfo_in_mt",
+      "REMAINING_ON_BOARD_VLSFO_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Remaining_On_Board_VLSGO_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons.",
+    "variant": [
+      "Remaining On Board VLSGO In MT",
+      "remaining_on_board_vlsgo_in_mt",
+      "REMAINING_ON_BOARD_VLSGO_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Remaining_On_Board_ULSGO_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons.",
+    "variant": [
+      "Remaining On Board ULSGO In MT",
+      "remaining_on_board_ulsgo_in_mt",
+      "REMAINING_ON_BOARD_ULSGO_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Remaining_On_Board_MECYL_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons.",
+    "variant": [
+      "Remaining On Board MECYL In MT",
+      "remaining_on_board_mecyl_in_mt",
+      "REMAINING_ON_BOARD_MECYL_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Remaining_On_Board_LSMECYL_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons.",
+    "variant": [
+      "Remaining On Board LSMECYL In MT",
+      "remaining_on_board_lsmecyl_in_mt",
+      "REMAINING_ON_BOARD_LSMECYL_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Remaining_On_Board_MECC_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons.",
+    "variant": [
+      "Remaining On Board MECC In MT",
+      "remaining_on_board_mecc_in_mt",
+      "REMAINING_ON_BOARD_MECC_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Remaining_On_Board_AECC_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons.",
+    "variant": [
+      "Remaining On Board AECC In MT",
+      "remaining_on_board_aecc_in_mt",
+      "REMAINING_ON_BOARD_AECC_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Remaining_On_Board_FW_In_MT",
+    "description": "Quantity of specific fuel or material remaining onboard, in metric tons.",
+    "variant": [
+      "Remaining On Board FW In MT",
+      "remaining_on_board_fw_in_mt",
+      "REMAINING_ON_BOARD_FW_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_HFO_Consumed_In_MT",
+    "description": "Total heavy fuel oil (HFO) consumed during this reporting period, in metric tons.",
+    "variant": [
+      "Total HFO Consumed In MT",
+      "total_hfo_consumed_in_mt",
+      "TOTAL_HFO_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_HFOME_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting.",
+    "variant": [
+      "Total HFOME Consumed In MT",
+      "total_hfome_consumed_in_mt",
+      "TOTAL_HFOME_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_HFOAE_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting.",
+    "variant": [
+      "Total HFOAE Consumed In MT",
+      "total_hfoae_consumed_in_mt",
+      "TOTAL_HFOAE_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_HFOBLR_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting.",
+    "variant": [
+      "Total HFOBLR Consumed In MT",
+      "total_hfoblr_consumed_in_mt",
+      "TOTAL_HFOBLR_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_VLSFO_Consumed_In_MT",
+    "description": "Total Very Low Sulphur Fuel Oil (VLSFO) consumed, in metric tons.",
+    "variant": [
+      "Total VLSFO Consumed In MT",
+      "total_vlsfo_consumed_in_mt",
+      "TOTAL_VLSFO_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_VLSFOME_Consumed_In_MT",
+    "description": "Total Very Low Sulphur Fuel Oil (VLSFO) consumed, in metric tons.",
+    "variant": [
+      "Total VLSFOME Consumed In MT",
+      "total_vlsfome_consumed_in_mt",
+      "TOTAL_VLSFOME_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_VLSFOBLR_Consumed_In_MT",
+    "description": "Total Very Low Sulphur Fuel Oil (VLSFO) consumed, in metric tons.",
+    "variant": [
+      "Total VLSFOBLR Consumed In MT",
+      "total_vlsfoblr_consumed_in_mt",
+      "TOTAL_VLSFOBLR_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_VLSGO_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting.",
+    "variant": [
+      "Total VLSGO Consumed In MT",
+      "total_vlsgo_consumed_in_mt",
+      "TOTAL_VLSGO_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_VLSGOME_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting.",
+    "variant": [
+      "Total VLSGOME Consumed In MT",
+      "total_vlsgome_consumed_in_mt",
+      "TOTAL_VLSGOME_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_VLSGOBLR_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting.",
+    "variant": [
+      "Total VLSGOBLR Consumed In MT",
+      "total_vlsgoblr_consumed_in_mt",
+      "TOTAL_VLSGOBLR_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_ULSGO_Consumed_In_MT",
+    "description": "Total Ultra Low Sulphur Gas Oil (ULSGO) consumed, in metric tons.",
+    "variant": [
+      "Total ULSGO Consumed In MT",
+      "total_ulsgo_consumed_in_mt",
+      "TOTAL_ULSGO_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_ULSGOME_Consumed_In_MT",
+    "description": "Total Ultra Low Sulphur Gas Oil (ULSGO) consumed, in metric tons.",
+    "variant": [
+      "Total ULSGOME Consumed In MT",
+      "total_ulsgome_consumed_in_mt",
+      "TOTAL_ULSGOME_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_ULSGOAE_Consumed_In_MT",
+    "description": "Total Ultra Low Sulphur Gas Oil (ULSGO) consumed, in metric tons.",
+    "variant": [
+      "Total ULSGOAE Consumed In MT",
+      "total_ulsgoae_consumed_in_mt",
+      "TOTAL_ULSGOAE_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_ULSGOBLR_Consumed_In_MT",
+    "description": "Total Ultra Low Sulphur Gas Oil (ULSGO) consumed, in metric tons.",
+    "variant": [
+      "Total ULSGOBLR Consumed In MT",
+      "total_ulsgoblr_consumed_in_mt",
+      "TOTAL_ULSGOBLR_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_MECYL_Consumed_In_MT",
+    "description": "Total cylinder oil used for main engine lubrication, in metric tons.",
+    "variant": [
+      "Total MECYL Consumed In MT",
+      "total_mecyl_consumed_in_mt",
+      "TOTAL_MECYL_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_LSMECYL_Consumed_In_MT",
+    "description": "Total cylinder oil used for main engine lubrication, in metric tons.",
+    "variant": [
+      "Total LSMECYL Consumed In MT",
+      "total_lsmecyl_consumed_in_mt",
+      "TOTAL_LSMECYL_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_MECC_Consumed_In_MT",
+    "description": "Operational or performance parameter related to vessel monitoring and reporting.",
+    "variant": [
+      "Total MECC Consumed In MT",
+      "total_mecc_consumed_in_mt",
+      "TOTAL_MECC_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_AECC_Consumed_In_MT",
+    "description": "Total auxiliary engine cylinder oil consumption, in metric tons.",
+    "variant": [
+      "Total AECC Consumed In MT",
+      "total_aecc_consumed_in_mt",
+      "TOTAL_AECC_CONSUMED_IN_MT"
+    ]
+  },
+  {
+    "standard_key": "Total_FW_Consumed",
+    "description": "Freshwater consumption or remaining freshwater in metric tons.",
+    "variant": [
+      "Total FW Consumed",
+      "total_fw_consumed",
+      "TOTAL_FW_CONSUMED"
+    ]
+  },
+  {
+    "standard_key": "ETA_Next_Port",
+    "description": "Estimated Time of Arrival at the next port of call.",
+    "variant": [
+      "ETA Next Port",
+      "eta_next_port",
+      "ETA_NEXT_PORT"
+    ]
+  },
+  {
+    "standard_key": "Next_Port",
+    "description": "Name of the next port the vessel is heading to.",
+    "variant": [
+      "Next Port",
+      "next_port",
+      "NEXT_PORT"
+    ]
+  }
+]

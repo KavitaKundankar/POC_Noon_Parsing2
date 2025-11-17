@@ -1,0 +1,13 @@
+KALIMANTAN EXPRESS - Noon Report
+Vessel : KALIMANTAN EXPRESS
+Report Date : 04 Jul 2025 12:00 / ShipTime : UTC +08:00
+Position : 4°37'30''N / : 106°9'54''E
+Voyage : V2503L1 /From : Futong, INDONESIA to Shanghai, CHINA
+Steaming : AS/12.65 MAS/12.06 Dist Run/ : 291 : Total Dist Run/400NM : Dist To Go/1929 NM, Steaming Time/23.00 hrs Total Steaming Time/32.50 hrs : M/E RPM/95.00 Slip/ : 8.50
+Weather : Wind:4 BF scale /225 °T /E, Sea Height:1.50 M, Swell:2.00 M/220 °T, Douglas Sea State: 4
+ROB : HFO: 771.30MT / VLSFO: 0.00MT/ VLSGO: 0.00MT / ULSGO: 113.10MT / MECYL: 16558.00 Ltr / LSMECYL: 0.00 Ltr / MECC: 13110.00 Ltr / AECC: 2534.00 Ltr/ FW: 460.00 MT
+Consumption : HFO: 21.00 (18.30, 2.70, 0.00) MT / VLSFO: 0.00 (0.00, 0.00, 0.00) MT/ VLSGO: 0.00 (0.00, 0.00, 0.00) MT / ULSGO: 0.00 (0.00, 0.00, 0.00) MT / MECYL: 110.00 Ltr,/ LSMECYL: 0.00 Ltr,/ MECC: 45.00 Ltr/ AECC: 14.00 Ltr/ FW: 6.00 MT
+Next Port : Shanghai, CHINA
+ETA Next Port : 11 Jul 2025 09:00
+Draft FWD : 9.80 / AFT : 10.10
+Remarks : 0100LT - Adjust ship's clock advance 1hr to conform ZD+8

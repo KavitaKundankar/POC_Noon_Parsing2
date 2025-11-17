@@ -1,0 +1,20 @@
+
+Mapping is given below : 
+{
+  "Vessel_Name": "KALIMANTAN EXPRESS",
+  "Report_Type": "KALIMANTAN EXPRESS",
+  "ETA_Next_Port": "unknown",
+  "Latitude": "4\u00b037'30''N",
+  "Longitude": "106\u00b09'54''E",
+  "Voyage_Number": "220 \u00b0T",
+  "Avg_Speed": "1929 NM",
+  "ME_Running_Hrs": "Vessel Report",
+  "ME_RPM": 95.0,
+  "Slip": 8.5,
+  "Wind_Speed": "E",
+  "Sea_Height": 4,
+  "Total_VLSFOAX_Consumed_In_MT": 6.0,
+  "Draft_FWD": 9.8,
+  "Next_Port": "unknown",
+  "Draft_AFT": 10.1
+}

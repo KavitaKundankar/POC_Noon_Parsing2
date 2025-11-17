@@ -1,0 +1,13 @@
+
+Vessel : SHANGHAI EXPRESS
+Report Date : 10 Nov 2025 12:00 / ShipTime : UTC -03:00
+Position : 25°18'0''S / : 44°42'24''W
+Voyage : 2507B2 /From : Singapore, SINGAPORE to Santos, BRAZIL
+Steaming : AS/12.21 MAS/11.34 Dist Run/ : 293 : Total Dist Run/8975NM : Dist To Go/122 NM, Steaming Time/24.00 hrs Total Steaming Time/792.50 hrs : M/E RPM/92.00 Slip/ : 3.94
+Weather : Wind:4 BF scale /315 °T /A, Sea Height:1.20 M, Swell:1.00 M/180 °T, Douglas Sea State: 3
+ROB : HFO: 1181.54MT / VLSFO: 0.00MT/ VLSGO: 0.00MT / ULSGO: 322.29MT / MECYL: 17501.00 Ltr / LSMECYL: 0.00 Ltr / MECC: 15455.00 Ltr / AECC: 3404.00 Ltr/ FW: 310.00 MT
+Consumption : HFO: 23.29 (20.21, 3.08, 0.00) MT / VLSFO: 0.00 (0.00, 0.00, 0.00) MT/ VLSGO: 0.00 (0.00, 0.00, 0.00) MT / ULSGO: 0.00 (0.00, 0.00, 0.00) MT / MECYL: 130.00 Ltr,/ LSMECYL: 0.00 Ltr,/ MECC: 25.00 Ltr/ AECC: 20.00 Ltr/ FW: 15.00 MT
+Next Port : Santos, BRAZIL
+ETA Next Port : 10 Nov 2025 23:30
+Draft FWD : 7.67 / AFT : 8.42
+Remarks : NIL
