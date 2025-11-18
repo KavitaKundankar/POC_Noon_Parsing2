@@ -30,6 +30,7 @@ Below are the top candidate standard parameters:
 Your task:
 - Select ONLY the best matching standard parameter name.
 - Return ONLY the selected name, no explanation.
+- also for oil(fo, go, do) select correct mapping key based on there sulphur content
 """
 
     response = llm.invoke(prompt)
@@ -74,12 +75,12 @@ def rag_mapping(vectordb, extracted_data):
 vectordb = load_param_db()
 
 # parsed_data 
-with open("shanghai_parsed.json", "r") as f:
+with open("misuga_parssed2.json", "r") as f:
     parsed_data = json.load(f)
 
 mapped = rag_mapping(vectordb, parsed_data)
 
-with open("shanghai_output3.json", "w") as f:
+with open("mapped_misuga_parssed2.json", "w") as f:
         f.write(json.dumps(mapped, indent=2))
 
 # print(json.dumps(mapped, indent=2))

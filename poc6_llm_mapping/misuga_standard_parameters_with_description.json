@@ -1,0 +1,1686 @@
+[
+  {
+    "name": "AE1_Load",
+    "description": "Parameter representing AE1 Load."
+  },
+  {
+    "name": "AE1_Load_Unit",
+    "description": "Parameter representing AE1 Load Unit."
+  },
+  {
+    "name": "AE1_Running_Hrs",
+    "description": "Parameter representing AE1 Running Hrs."
+  },
+  {
+    "name": "AE2_Load",
+    "description": "Parameter representing AE2 Load."
+  },
+  {
+    "name": "AE2_Load_Unit",
+    "description": "Parameter representing AE2 Load Unit."
+  },
+  {
+    "name": "AE2_Running_Hrs",
+    "description": "Parameter representing AE2 Running Hrs."
+  },
+  {
+    "name": "AE3_Load",
+    "description": "Parameter representing AE3 Load."
+  },
+  {
+    "name": "AE3_Load_Unit",
+    "description": "Parameter representing AE3 Load Unit."
+  },
+  {
+    "name": "AE3_Running_Hrs",
+    "description": "Parameter representing AE3 Running Hrs."
+  },
+  {
+    "name": "AE4_Load",
+    "description": "Parameter representing AE4 Load."
+  },
+  {
+    "name": "AE4_Load_Unit",
+    "description": "Parameter representing AE4 Load Unit."
+  },
+  {
+    "name": "AE4_Running_Hrs",
+    "description": "Parameter representing AE4 Running Hrs."
+  },
+  {
+    "name": "AE_Consumed_In_MT",
+    "description": "Parameter representing AE Consumed In MT."
+  },
+  {
+    "name": "Actual_Time_Of_Berthing",
+    "description": "Parameter representing Actual Time Of Berthing."
+  },
+  {
+    "name": "Air_Temperature",
+    "description": "Parameter representing Air Temperature."
+  },
+  {
+    "name": "Air_Temperature_Unit",
+    "description": "Parameter representing Air Temperature Unit."
+  },
+  {
+    "name": "Anchoring_Elapsed_Time",
+    "description": "Parameter representing Anchoring Elapsed Time."
+  },
+  {
+    "name": "Anchoring_Exclude_Spent_Time",
+    "description": "Parameter representing Anchoring Exclude Spent Time."
+  },
+  {
+    "name": "Arrival_Time",
+    "description": "Parameter representing Arrival Time."
+  },
+  {
+    "name": "Avg_MCR",
+    "description": "Parameter representing Avg MCR."
+  },
+  {
+    "name": "Avg_MCR_Unit",
+    "description": "Parameter representing Avg MCR Unit."
+  },
+  {
+    "name": "Avg_ME_Power",
+    "description": "Parameter representing Avg ME Power."
+  },
+  {
+    "name": "Avg_ME_Power_Unit",
+    "description": "Parameter representing Avg ME Power Unit."
+  },
+  {
+    "name": "Avg_RPM",
+    "description": "Parameter representing Avg RPM."
+  },
+  {
+    "name": "Avg_RPM_Unit",
+    "description": "Parameter representing Avg RPM Unit."
+  },
+  {
+    "name": "Avg_Slip",
+    "description": "Parameter representing Avg Slip."
+  },
+  {
+    "name": "Avg_Slip_Unit",
+    "description": "Parameter representing Avg Slip Unit."
+  },
+  {
+    "name": "Avg_Speed",
+    "description": "Parameter representing Avg Speed."
+  },
+  {
+    "name": "Avg_Speed_Unit",
+    "description": "Parameter representing Avg Speed Unit."
+  },
+  {
+    "name": "BDN_Number",
+    "description": "Parameter representing BDN Number."
+  },
+  {
+    "name": "BLR_Consumed_In_MT",
+    "description": "Parameter representing BLR Consumed In MT."
+  },
+  {
+    "name": "Balance_To_Load_Discharge",
+    "description": "Parameter representing Balance To Load Discharge."
+  },
+  {
+    "name": "Beaufort_Number",
+    "description": "Parameter representing Beaufort Number."
+  },
+  {
+    "name": "Berths_Spent_Time",
+    "description": "Parameter representing Berths Spent Time."
+  },
+  {
+    "name": "Bunkered_At_Departure_Port",
+    "description": "Parameter representing Bunkered At Departure Port."
+  },
+  {
+    "name": "CP_Consumption_In_MT",
+    "description": "Parameter representing CP Consumption In MT."
+  },
+  {
+    "name": "CP_Consumption_In_MT_Unit",
+    "description": "Parameter representing CP Consumption In MT Unit."
+  },
+  {
+    "name": "CP_DO_Consumption_In_MT",
+    "description": "Parameter representing CP DO Consumption In MT."
+  },
+  {
+    "name": "CP_DO_Consumption_In_MT_Unit",
+    "description": "Parameter representing CP DO Consumption In MT Unit."
+  },
+  {
+    "name": "CP_GO_Consumption_In_MT",
+    "description": "Parameter representing CP GO Consumption In MT."
+  },
+  {
+    "name": "CP_GO_Consumption_In_MT_Unit",
+    "description": "Parameter representing CP GO Consumption In MT Unit."
+  },
+  {
+    "name": "CP_Speed",
+    "description": "Parameter representing CP Speed."
+  },
+  {
+    "name": "CP_Speed_Unit",
+    "description": "Parameter representing CP Speed Unit."
+  },
+  {
+    "name": "Call_Sign",
+    "description": "Parameter representing Call Sign."
+  },
+  {
+    "name": "Cargo_Name_Undefined",
+    "description": "Parameter representing Cargo Name Undefined."
+  },
+  {
+    "name": "Cargo_Operation",
+    "description": "Parameter representing Cargo Operation."
+  },
+  {
+    "name": "Cargo_Usage",
+    "description": "Parameter representing Cargo Usage."
+  },
+  {
+    "name": "Cargo_Weight",
+    "description": "Parameter representing Cargo Weight."
+  },
+  {
+    "name": "Cargo_Weight_Unit",
+    "description": "Parameter representing Cargo Weight Unit."
+  },
+  {
+    "name": "Cons_DO_At_Berths",
+    "description": "Parameter representing Cons DO At Berths."
+  },
+  {
+    "name": "Cons_FO_At_Berths",
+    "description": "Parameter representing Cons FO At Berths."
+  },
+  {
+    "name": "Cons_GO_At_Berths",
+    "description": "Parameter representing Cons GO At Berths."
+  },
+  {
+    "name": "Crane_NO1_Running_Hrs",
+    "description": "Parameter representing Crane NO1 Running Hrs."
+  },
+  {
+    "name": "Crane_NO2_Running_Hrs",
+    "description": "Parameter representing Crane NO2 Running Hrs."
+  },
+  {
+    "name": "Crane_NO3_Running_Hrs",
+    "description": "Parameter representing Crane NO3 Running Hrs."
+  },
+  {
+    "name": "Crane_NO4_Running_Hrs",
+    "description": "Parameter representing Crane NO4 Running Hrs."
+  },
+  {
+    "name": "Cyl_No_ME_CFW_Highest_Temp",
+    "description": "Parameter representing Cyl No ME CFW Highest Temp."
+  },
+  {
+    "name": "Cyl_No_ME_CFW_Lowest_Temp",
+    "description": "Parameter representing Cyl No ME CFW Lowest Temp."
+  },
+  {
+    "name": "Cyl_No_ME_Exh_Highest_Temp",
+    "description": "Parameter representing Cyl No ME Exh Highest Temp."
+  },
+  {
+    "name": "Cyl_No_ME_Exh_Lowest_Temp",
+    "description": "Parameter representing Cyl No ME Exh Lowest Temp."
+  },
+  {
+    "name": "DG_LO_PRESS_NO1_Unit",
+    "description": "Parameter representing DG LO PRESS NO1 Unit."
+  },
+  {
+    "name": "DG_LO_PRESS_NO2",
+    "description": "Parameter representing DG LO PRESS NO2."
+  },
+  {
+    "name": "DG_LO_PRESS_NO3",
+    "description": "Parameter representing DG LO PRESS NO3."
+  },
+  {
+    "name": "DG_LO_PRESS_NO4",
+    "description": "Parameter representing DG LO PRESS NO4."
+  },
+  {
+    "name": "DO_Consumed_In_MT",
+    "description": "Parameter representing DO Consumed In MT."
+  },
+  {
+    "name": "DO_Remaining_On_Board_In_MT",
+    "description": "Parameter representing DO Remaining On Board In MT."
+  },
+  {
+    "name": "DO_in_Use_Sulphur_Content",
+    "description": "Parameter representing DO in Use Sulphur Content."
+  },
+  {
+    "name": "Departure_Time",
+    "description": "Parameter representing Departure Time."
+  },
+  {
+    "name": "Destination_Pilot_Station_Position",
+    "description": "Parameter representing Destination Pilot Station Position."
+  },
+  {
+    "name": "Displacement",
+    "description": "Parameter representing Displacement."
+  },
+  {
+    "name": "Displacement_Unit",
+    "description": "Parameter representing Displacement Unit."
+  },
+  {
+    "name": "Dist_RuP_Eng_To_SBE_Engine",
+    "description": "Parameter representing Dist RuP Eng To SBE Engine."
+  },
+  {
+    "name": "Distance",
+    "description": "Parameter representing Distance."
+  },
+  {
+    "name": "Distance_Remaining_To_EOV",
+    "description": "Parameter representing Distance Remaining To EOV."
+  },
+  {
+    "name": "Distance_Remaining_To_EOV_Unit",
+    "description": "Parameter representing Distance Remaining To EOV Unit."
+  },
+  {
+    "name": "Distance_Unit",
+    "description": "Parameter representing Distance Unit."
+  },
+  {
+    "name": "Draft",
+    "description": "Parameter representing Draft."
+  },
+  {
+    "name": "Draft_AFT",
+    "description": "Parameter representing Draft AFT."
+  },
+  {
+    "name": "Draft_AFT_Unit",
+    "description": "Parameter representing Draft AFT Unit."
+  },
+  {
+    "name": "Draft_Arrival",
+    "description": "Parameter representing Draft Arrival."
+  },
+  {
+    "name": "Draft_Departure",
+    "description": "Parameter representing Draft Departure."
+  },
+  {
+    "name": "Draft_FWD",
+    "description": "Parameter representing Draft FWD."
+  },
+  {
+    "name": "Draft_FWD_Unit",
+    "description": "Parameter representing Draft FWD Unit."
+  },
+  {
+    "name": "Draft_Mid",
+    "description": "Parameter representing Draft Mid."
+  },
+  {
+    "name": "Draft_Mid_Unit",
+    "description": "Parameter representing Draft Mid Unit."
+  },
+  {
+    "name": "Drifting_Completion_Position",
+    "description": "Parameter representing Drifting Completion Position."
+  },
+  {
+    "name": "Drifting_Completion_Time",
+    "description": "Parameter representing Drifting Completion Time."
+  },
+  {
+    "name": "Drifting_Position",
+    "description": "Parameter representing Drifting Position."
+  },
+  {
+    "name": "Drifting_Time",
+    "description": "Parameter representing Drifting Time."
+  },
+  {
+    "name": "ESM_Version",
+    "description": "Parameter representing ESM Version."
+  },
+  {
+    "name": "ETA_Next_Port",
+    "description": "Parameter representing ETA Next Port."
+  },
+  {
+    "name": "ETB",
+    "description": "Parameter representing ETB."
+  },
+  {
+    "name": "ETD_From_Berth",
+    "description": "Parameter representing ETD From Berth."
+  },
+  {
+    "name": "Engine_Room_Temp",
+    "description": "Parameter representing Engine Room Temp."
+  },
+  {
+    "name": "Engine_Room_Temp_unit",
+    "description": "Parameter representing Engine Room Temp unit."
+  },
+  {
+    "name": "FO_Consumed_In_MT",
+    "description": "Parameter representing FO Consumed In MT."
+  },
+  {
+    "name": "FO_ROB_Commencement_of_Anchoring",
+    "description": "Parameter representing FO ROB Commencement of Anchoring."
+  },
+  {
+    "name": "FO_ROB_Completion_of_Anchoring",
+    "description": "Parameter representing FO ROB Completion of Anchoring."
+  },
+  {
+    "name": "FO_Remaining_On_Board_In_MT",
+    "description": "Parameter representing FO Remaining On Board In MT."
+  },
+  {
+    "name": "FW_Produced",
+    "description": "Parameter representing FW Produced."
+  },
+  {
+    "name": "FW_Produced_Unit",
+    "description": "Parameter representing FW Produced Unit."
+  },
+  {
+    "name": "Format_Version",
+    "description": "Parameter representing Format Version."
+  },
+  {
+    "name": "GM",
+    "description": "Parameter representing GM."
+  },
+  {
+    "name": "GM_Unit",
+    "description": "Parameter representing GM Unit."
+  },
+  {
+    "name": "GO_Consumed_In_MT",
+    "description": "Parameter representing GO Consumed In MT."
+  },
+  {
+    "name": "GO_ROB_Commencement_of_Anchoring",
+    "description": "Parameter representing GO ROB Commencement of Anchoring."
+  },
+  {
+    "name": "GO_ROB_Completion_of_Anchoring",
+    "description": "Parameter representing GO ROB Completion of Anchoring."
+  },
+  {
+    "name": "GO_Remaining_On_Board_In_MT",
+    "description": "Parameter representing GO Remaining On Board In MT."
+  },
+  {
+    "name": "GO_in_Use_Sulphur_Content",
+    "description": "Parameter representing GO in Use Sulphur Content."
+  },
+  {
+    "name": "IMO_Number",
+    "description": "Parameter representing IMO Number."
+  },
+  {
+    "name": "Latitude",
+    "description": "Parameter representing Latitude."
+  },
+  {
+    "name": "Loaded_Discharged_At_Departure_Port",
+    "description": "Parameter representing Loaded Discharged At Departure Port."
+  },
+  {
+    "name": "Loading_Discharging_Port_Code",
+    "description": "Parameter representing Loading Discharging Port Code."
+  },
+  {
+    "name": "Loading_Discharging_Port_Name",
+    "description": "Parameter representing Loading Discharging Port Name."
+  },
+  {
+    "name": "Loading_Discharging_Time",
+    "description": "Parameter representing Loading Discharging Time."
+  },
+  {
+    "name": "Longitude",
+    "description": "Parameter representing Longitude."
+  },
+  {
+    "name": "MAX_RPM",
+    "description": "Parameter representing MAX RPM."
+  },
+  {
+    "name": "MAX_RPM_Unit",
+    "description": "Parameter representing MAX RPM Unit."
+  },
+  {
+    "name": "MDOAE_Consumed_In_MT",
+    "description": "Parameter representing MDOAE Consumed In MT."
+  },
+  {
+    "name": "MDOBLR_Consumed_In_MT",
+    "description": "Parameter representing MDOBLR Consumed In MT."
+  },
+  {
+    "name": "MDOME_Consumed_In_MT",
+    "description": "Parameter representing MDOME Consumed In MT."
+  },
+  {
+    "name": "ME_Aux_Blower_Run_Mode",
+    "description": "Parameter representing ME Aux Blower Run Mode."
+  },
+  {
+    "name": "ME_Aux_Blower_Run_Status",
+    "description": "Parameter representing ME Aux Blower Run Status."
+  },
+  {
+    "name": "ME_CFW_Highest_Temp",
+    "description": "Parameter representing ME CFW Highest Temp."
+  },
+  {
+    "name": "ME_CFW_Highest_Temp_Unit",
+    "description": "Parameter representing ME CFW Highest Temp Unit."
+  },
+  {
+    "name": "ME_CFW_Lowest_Temp",
+    "description": "Parameter representing ME CFW Lowest Temp."
+  },
+  {
+    "name": "ME_CFW_Lowest_Temp_Unit",
+    "description": "Parameter representing ME CFW Lowest Temp Unit."
+  },
+  {
+    "name": "ME_Consumed_In_MT",
+    "description": "Parameter representing ME Consumed In MT."
+  },
+  {
+    "name": "ME_EXH_Highest_Temp",
+    "description": "Parameter representing ME EXH Highest Temp."
+  },
+  {
+    "name": "ME_EXH_Highest_Temp_Unit",
+    "description": "Parameter representing ME EXH Highest Temp Unit."
+  },
+  {
+    "name": "ME_EXH_Lowest_Temp",
+    "description": "Parameter representing ME EXH Lowest Temp."
+  },
+  {
+    "name": "ME_EXH_Lowest_Temp_Unit",
+    "description": "Parameter representing ME EXH Lowest Temp Unit."
+  },
+  {
+    "name": "ME_FO_IN_TEMP",
+    "description": "Parameter representing ME FO IN TEMP."
+  },
+  {
+    "name": "ME_FO_IN_TEMP_Unit",
+    "description": "Parameter representing ME FO IN TEMP Unit."
+  },
+  {
+    "name": "ME_LO_IN_TEMP",
+    "description": "Parameter representing ME LO IN TEMP."
+  },
+  {
+    "name": "ME_LO_IN_TEMP_Unit",
+    "description": "Parameter representing ME LO IN TEMP Unit."
+  },
+  {
+    "name": "ME_Power",
+    "description": "Parameter representing ME Power."
+  },
+  {
+    "name": "ME_Power_Unit",
+    "description": "Parameter representing ME Power Unit."
+  },
+  {
+    "name": "ME_Running_Hrs",
+    "description": "Parameter representing ME Running Hrs."
+  },
+  {
+    "name": "ME_Running_Hrs_Unit",
+    "description": "Parameter representing ME Running Hrs Unit."
+  },
+  {
+    "name": "ME_SCAV_PRESS",
+    "description": "Parameter representing ME SCAV PRESS."
+  },
+  {
+    "name": "ME_SCAV_PRESS_Unit",
+    "description": "Parameter representing ME SCAV PRESS Unit."
+  },
+  {
+    "name": "ME_SCAV_TEMP",
+    "description": "Parameter representing ME SCAV TEMP."
+  },
+  {
+    "name": "ME_SCAV_TEMP_Unit",
+    "description": "Parameter representing ME SCAV TEMP Unit."
+  },
+  {
+    "name": "MGOAE_Consumed_In_MT",
+    "description": "Parameter representing MGOAE Consumed In MT."
+  },
+  {
+    "name": "MGOBLR_Consumed_In_MT",
+    "description": "Parameter representing MGOBLR Consumed In MT."
+  },
+  {
+    "name": "MGOME_Consumed_In_MT",
+    "description": "Parameter representing MGOME Consumed In MT."
+  },
+  {
+    "name": "MIN_RPM",
+    "description": "Parameter representing MIN RPM."
+  },
+  {
+    "name": "MIN_RPM_Unit",
+    "description": "Parameter representing MIN RPM Unit."
+  },
+  {
+    "name": "Next_Port",
+    "description": "Parameter representing Next Port."
+  },
+  {
+    "name": "Next_Port_Code",
+    "description": "Parameter representing Next Port Code."
+  },
+  {
+    "name": "No1_ME_TC_EXH_Temp_In",
+    "description": "Parameter representing No1 ME TC EXH Temp In."
+  },
+  {
+    "name": "No1_ME_TC_EXH_Temp_In_Unit",
+    "description": "Parameter representing No1 ME TC EXH Temp In Unit."
+  },
+  {
+    "name": "No1_ME_TC_EXH_Temp_Out",
+    "description": "Parameter representing No1 ME TC EXH Temp Out."
+  },
+  {
+    "name": "No1_ME_TC_EXH_Temp_Out_Unit",
+    "description": "Parameter representing No1 ME TC EXH Temp Out Unit."
+  },
+  {
+    "name": "No1_ME_TC_RPM",
+    "description": "Parameter representing No1 ME TC RPM."
+  },
+  {
+    "name": "No1_ME_TC_RPM_Unit",
+    "description": "Parameter representing No1 ME TC RPM Unit."
+  },
+  {
+    "name": "No2_ME_TC_EXH_Temp_In_Unit",
+    "description": "Parameter representing No2 ME TC EXH Temp In Unit."
+  },
+  {
+    "name": "No2_ME_TC_EXH_Temp_Out_Unit",
+    "description": "Parameter representing No2 ME TC EXH Temp Out Unit."
+  },
+  {
+    "name": "No2_ME_TC_RPM_Unit",
+    "description": "Parameter representing No2 ME TC RPM Unit."
+  },
+  {
+    "name": "Order_Speed",
+    "description": "Parameter representing Order Speed."
+  },
+  {
+    "name": "Order_Speed_Unit",
+    "description": "Parameter representing Order Speed Unit."
+  },
+  {
+    "name": "Ordered_Consumption_DO",
+    "description": "Parameter representing Ordered Consumption DO."
+  },
+  {
+    "name": "Ordered_Consumption_DO_Unit",
+    "description": "Parameter representing Ordered Consumption DO Unit."
+  },
+  {
+    "name": "Ordered_Consumption_Fuel_Oil",
+    "description": "Parameter representing Ordered Consumption Fuel Oil."
+  },
+  {
+    "name": "Ordered_Consumption_Fuel_Oil_Unit",
+    "description": "Parameter representing Ordered Consumption Fuel Oil Unit."
+  },
+  {
+    "name": "Ordered_Consumption_Gas_Oil",
+    "description": "Parameter representing Ordered Consumption Gas Oil."
+  },
+  {
+    "name": "Ordered_Consumption_Gas_Oil_Unit",
+    "description": "Parameter representing Ordered Consumption Gas Oil Unit."
+  },
+  {
+    "name": "Port_Facility_Name",
+    "description": "Parameter representing Port Facility Name."
+  },
+  {
+    "name": "Portlist_Version",
+    "description": "Parameter representing Portlist Version."
+  },
+  {
+    "name": "Position_Completion_of_Anchoring",
+    "description": "Parameter representing Position Completion of Anchoring."
+  },
+  {
+    "name": "Primary_Cargo_Name",
+    "description": "Parameter representing Primary Cargo Name."
+  },
+  {
+    "name": "Primary_On_Deck",
+    "description": "Parameter representing Primary On Deck."
+  },
+  {
+    "name": "Quantity_Loaded_Discharge",
+    "description": "Parameter representing Quantity Loaded Discharge."
+  },
+  {
+    "name": "ROB_FW_Unit",
+    "description": "Parameter representing ROB FW Unit."
+  },
+  {
+    "name": "RPM_Setting",
+    "description": "Parameter representing RPM Setting."
+  },
+  {
+    "name": "RPM_Setting_Unit",
+    "description": "Parameter representing RPM Setting Unit."
+  },
+  {
+    "name": "Reason_Of_Drifting",
+    "description": "Parameter representing Reason Of Drifting."
+  },
+  {
+    "name": "Received_Quantity_Of_DO_Bunker",
+    "description": "Parameter representing Received Quantity Of DO Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_FO_Bunker",
+    "description": "Parameter representing Received Quantity Of FO Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_GO_Bunker",
+    "description": "Parameter representing Received Quantity Of GO Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_HFO_Bunker",
+    "description": "Parameter representing Received Quantity Of HFO Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_LSFO_Bunker",
+    "description": "Parameter representing Received Quantity Of LSFO Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_LSMDO_Bunker",
+    "description": "Parameter representing Received Quantity Of LSMDO Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_LSMGO_Bunker",
+    "description": "Parameter representing Received Quantity Of LSMGO Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_MDO_MAX(0.5)_Bunker",
+    "description": "Parameter representing Received Quantity Of MDO MAX 0.5  Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_MDO_Over(0.5)_Bunker",
+    "description": "Parameter representing Received Quantity Of MDO Over 0.5  Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_MGO_MAX(0.5)_Bunker",
+    "description": "Parameter representing Received Quantity Of MGO MAX 0.5  Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_MGO_Over(0.5)_Bunker",
+    "description": "Parameter representing Received Quantity Of MGO Over 0.5  Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_ULSFO_Bunker",
+    "description": "Parameter representing Received Quantity Of ULSFO Bunker."
+  },
+  {
+    "name": "Received_Quantity_Of_VLSFO_Bunker",
+    "description": "Parameter representing Received Quantity Of VLSFO Bunker."
+  },
+  {
+    "name": "Remaining_On_Board_AE_System_Oil",
+    "description": "Parameter representing Remaining On Board AE System Oil."
+  },
+  {
+    "name": "Remaining_On_Board_AE_System_Oil_Unit",
+    "description": "Parameter representing Remaining On Board AE System Oil Unit."
+  },
+  {
+    "name": "Remaining_On_Board_DO _Commencement_of_Drfiting",
+    "description": "Parameter representing Remaining On Board DO  Commencement of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_DO _Completion_of_Drfiting",
+    "description": "Parameter representing Remaining On Board DO  Completion of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_DO_Dep final Berth",
+    "description": "Parameter representing Remaining On Board DO Dep final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_DO_MAX(0.5)_In_MT_Commencement_of_Anchoring",
+    "description": "Parameter representing Remaining On Board DO MAX 0.5  In MT Commencement of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_DO_MAX(0.5)_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board DO MAX 0.5  In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_DO_Max(0.5) Bunker_Commencement_of_Bunkering",
+    "description": "Parameter representing Remaining On Board DO Max 0.5  Bunker Commencement of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_DO_Max(0.5) Bunker_Completion_of_Bunkering",
+    "description": "Parameter representing Remaining On Board DO Max 0.5  Bunker Completion of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_DO_Over(0.5) Bunker_Commencement_of_Bunkering",
+    "description": "Parameter representing Remaining On Board DO Over 0.5  Bunker Commencement of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_DO_Over(0.5) Bunker_Completion_of_Bunkering",
+    "description": "Parameter representing Remaining On Board DO Over 0.5  Bunker Completion of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_DO_Over(0.5)_In_MT_Commencement_of_Anchoring",
+    "description": "Parameter representing Remaining On Board DO Over 0.5  In MT Commencement of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_DO_Over(0.5)_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board DO Over 0.5  In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_DO_RUP Engine",
+    "description": "Parameter representing Remaining On Board DO RUP Engine."
+  },
+  {
+    "name": "Remaining_On_Board_Drinking Water",
+    "description": "Parameter representing Remaining On Board Drinking Water."
+  },
+  {
+    "name": "Remaining_On_Board_Drinking Water_Unit",
+    "description": "Parameter representing Remaining On Board Drinking Water Unit."
+  },
+  {
+    "name": "Remaining_On_Board_Drinking_Water",
+    "description": "Parameter representing Remaining On Board Drinking Water."
+  },
+  {
+    "name": "Remaining_On_Board_FO _Commencement_of_Drfiting",
+    "description": "Parameter representing Remaining On Board FO  Commencement of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_FO _Completion_of_Drfiting",
+    "description": "Parameter representing Remaining On Board FO  Completion of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_FO_Dep final Berth",
+    "description": "Parameter representing Remaining On Board FO Dep final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_FO_RUP Engine",
+    "description": "Parameter representing Remaining On Board FO RUP Engine."
+  },
+  {
+    "name": "Remaining_On_Board_FW_In_MT",
+    "description": "Parameter representing Remaining On Board FW In MT."
+  },
+  {
+    "name": "Remaining_On_Board_GO _Commencement of Drfiting",
+    "description": "Parameter representing Remaining On Board GO  Commencement of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_GO _Completion_of_Drfiting",
+    "description": "Parameter representing Remaining On Board GO  Completion of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_GO_Dep final Berth",
+    "description": "Parameter representing Remaining On Board GO Dep final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_GO_MAX(0.5)_In_MT_Commencement_of_Anchoring",
+    "description": "Parameter representing Remaining On Board GO MAX 0.5  In MT Commencement of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_GO_MAX(0.5)_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board GO MAX 0.5  In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_GO_Max(0.5) Bunker_Commencement_of_Bunkering",
+    "description": "Parameter representing Remaining On Board GO Max 0.5  Bunker Commencement of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_GO_Max(0.5) Bunker_Completion_of_Bunkering",
+    "description": "Parameter representing Remaining On Board GO Max 0.5  Bunker Completion of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_GO_Over(0.5) Bunker_Commencement_of_Bunkering",
+    "description": "Parameter representing Remaining On Board GO Over 0.5  Bunker Commencement of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_GO_Over(0.5) Bunker_Completion_of_Bunkering",
+    "description": "Parameter representing Remaining On Board GO Over 0.5  Bunker Completion of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_GO_Over(0.5)_In_MT_Commencement_of_Anchoring",
+    "description": "Parameter representing Remaining On Board GO Over 0.5  In MT Commencement of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_GO_Over(0.5)_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board GO Over 0.5  In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_GO_RUP Engine",
+    "description": "Parameter representing Remaining On Board GO RUP Engine."
+  },
+  {
+    "name": "Remaining_On_Board_HFO_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board HFO AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_HFO_Commencement_of_Drfiting",
+    "description": "Parameter representing Remaining On Board HFO Commencement of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_HFO_Completion_of_Drfiting",
+    "description": "Parameter representing Remaining On Board HFO Completion of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_HFO_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board HFO Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_HFO_In_MT",
+    "description": "Parameter representing Remaining On Board HFO In MT."
+  },
+  {
+    "name": "Remaining_On_Board_HFO_In_MT_Commencement_of_Anchoring",
+    "description": "Parameter representing Remaining On Board HFO In MT Commencement of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_HFO_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board HFO In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_LFO_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board LFO AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_LFO_Commencement_of_Drfiting",
+    "description": "Parameter representing Remaining On Board LFO Commencement of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_LFO_Completion_of_Drfiting",
+    "description": "Parameter representing Remaining On Board LFO Completion of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_LFO_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board LFO Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_LSFO_In_MT",
+    "description": "Parameter representing Remaining On Board LSFO In MT."
+  },
+  {
+    "name": "Remaining_On_Board_LSFO_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board LSFO In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_LSFO_In_MT_comm_of_Anchoring",
+    "description": "Parameter representing Remaining On Board LSFO In MT comm of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_LSMDO_ Bunker_Commencement_of_Bunkering",
+    "description": "Parameter representing Remaining On Board LSMDO  Bunker Commencement of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_LSMDO_ Bunker_Completion_of_Bunkering",
+    "description": "Parameter representing Remaining On Board LSMDO  Bunker Completion of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_LSMDO_In_MT",
+    "description": "Parameter representing Remaining On Board LSMDO In MT."
+  },
+  {
+    "name": "Remaining_On_Board_LSMDO_In_MT_AT_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board LSMDO In MT AT Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_LSMDO_In_MT_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board LSMDO In MT AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_LSMDO_In_MT_Commencement_of_Anchoring",
+    "description": "Parameter representing Remaining On Board LSMDO In MT Commencement of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_LSMDO_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board LSMDO In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_LSMGO_ Bunker_Commencement_of_Bunkering",
+    "description": "Parameter representing Remaining On Board LSMGO  Bunker Commencement of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_LSMGO_ Bunker_Completion_of_Bunkering",
+    "description": "Parameter representing Remaining On Board LSMGO  Bunker Completion of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_LSMGO_In_MT",
+    "description": "Parameter representing Remaining On Board LSMGO In MT."
+  },
+  {
+    "name": "Remaining_On_Board_LSMGO_In_MT_AT_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board LSMGO In MT AT Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_LSMGO_In_MT_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board LSMGO In MT AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_LSMGO_In_MT_Commencement_of_Anchoring",
+    "description": "Parameter representing Remaining On Board LSMGO In MT Commencement of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_LSMGO_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board LSMGO In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_MDO_MAX(0.5)_In_MT",
+    "description": "Parameter representing Remaining On Board MDO MAX 0.5  In MT."
+  },
+  {
+    "name": "Remaining_On_Board_MDO_MAX(0.5)_In_MT_AT_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board MDO MAX 0.5  In MT AT Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_MDO_MAX(0.5)_In_MT_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board MDO MAX 0.5  In MT AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_MDO_Over(0.5)_In_MT",
+    "description": "Parameter representing Remaining On Board MDO Over 0.5  In MT."
+  },
+  {
+    "name": "Remaining_On_Board_MDO_Over(0.5)_In_MT_AT_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board MDO Over 0.5  In MT AT Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_MDO_Over(0.5)_In_MT_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board MDO Over 0.5  In MT AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_ME_CYL_OIL_High_Sulphur_FO",
+    "description": "Parameter representing Remaining On Board ME CYL OIL High Sulphur FO."
+  },
+  {
+    "name": "Remaining_On_Board_ME_CYL_OIL_High_Sulphur_FO_Unit",
+    "description": "Parameter representing Remaining On Board ME CYL OIL High Sulphur FO Unit."
+  },
+  {
+    "name": "Remaining_On_Board_ME_CYL_OIL_Low_Sulphur_FO",
+    "description": "Parameter representing Remaining On Board ME CYL OIL Low Sulphur FO."
+  },
+  {
+    "name": "Remaining_On_Board_ME_CYL_OIL_Low_Sulphur_FO_Unit",
+    "description": "Parameter representing Remaining On Board ME CYL OIL Low Sulphur FO Unit."
+  },
+  {
+    "name": "Remaining_On_Board_ME_System_Oil",
+    "description": "Parameter representing Remaining On Board ME System Oil."
+  },
+  {
+    "name": "Remaining_On_Board_ME_System_Oil_Unit",
+    "description": "Parameter representing Remaining On Board ME System Oil Unit."
+  },
+  {
+    "name": "Remaining_On_Board_MGO_MAX(0.5)_In_MT",
+    "description": "Parameter representing Remaining On Board MGO MAX 0.5  In MT."
+  },
+  {
+    "name": "Remaining_On_Board_MGO_MAX(0.5)_In_MT_AT_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board MGO MAX 0.5  In MT AT Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_MGO_MAX(0.5)_In_MT_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board MGO MAX 0.5  In MT AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_MGO_Over(0.5)_In_MT",
+    "description": "Parameter representing Remaining On Board MGO Over 0.5  In MT."
+  },
+  {
+    "name": "Remaining_On_Board_MGO_Over(0.5)_In_MT_AT_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board MGO Over 0.5  In MT AT Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_MGO_Over(0.5)_In_MT_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board MGO Over 0.5  In MT AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_Total DO_ Bunker_Commencement_of_Bunkering",
+    "description": "Parameter representing Remaining On Board Total DO  Bunker Commencement of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_Total DO_ Bunker_Completion_of_Bunkering",
+    "description": "Parameter representing Remaining On Board Total DO  Bunker Completion of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_Total FO_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board Total FO AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_Total FO_Commencement_of_Drfiting",
+    "description": "Parameter representing Remaining On Board Total FO Commencement of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_Total FO_Completion_of_Drfiting",
+    "description": "Parameter representing Remaining On Board Total FO Completion of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_Total FO_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board Total FO Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_Total GO_ Bunker_Commencement_of_Bunkering",
+    "description": "Parameter representing Remaining On Board Total GO  Bunker Commencement of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_Total GO_ Bunker_Completion_of_Bunkering",
+    "description": "Parameter representing Remaining On Board Total GO  Bunker Completion of Bunkering."
+  },
+  {
+    "name": "Remaining_On_Board_Total_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board Total In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_Total_In_MT_commencemnt_of_Anchoring",
+    "description": "Parameter representing Remaining On Board Total In MT commencemnt of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_ULSFO_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board ULSFO AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_ULSFO_Commencement_of_Drfiting",
+    "description": "Parameter representing Remaining On Board ULSFO Commencement of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_ULSFO_Completion_of_Drfiting",
+    "description": "Parameter representing Remaining On Board ULSFO Completion of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_ULSFO_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board ULSFO Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_ULSFO_In_MT",
+    "description": "Parameter representing Remaining On Board ULSFO In MT."
+  },
+  {
+    "name": "Remaining_On_Board_ULSFO_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board ULSFO In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_ULSFO_In_MT_commencemnt_of_Anchoring",
+    "description": "Parameter representing Remaining On Board ULSFO In MT commencemnt of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_VLSFO_AT_RuP_Eng",
+    "description": "Parameter representing Remaining On Board VLSFO AT RuP Eng."
+  },
+  {
+    "name": "Remaining_On_Board_VLSFO_Commencement_of_Drfiting",
+    "description": "Parameter representing Remaining On Board VLSFO Commencement of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_VLSFO_Completion_of_Drfiting",
+    "description": "Parameter representing Remaining On Board VLSFO Completion of Drfiting."
+  },
+  {
+    "name": "Remaining_On_Board_VLSFO_Departure_From_Final_Berth",
+    "description": "Parameter representing Remaining On Board VLSFO Departure From Final Berth."
+  },
+  {
+    "name": "Remaining_On_Board_VLSFO_In_MT",
+    "description": "Parameter representing Remaining On Board VLSFO In MT."
+  },
+  {
+    "name": "Remaining_On_Board_VLSFO_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Remaining On Board VLSFO In MT Completion of Anchoring."
+  },
+  {
+    "name": "Remaining_On_Board_VLSFO_In_MT_commencemnt_of_Anchoring",
+    "description": "Parameter representing Remaining On Board VLSFO In MT commencemnt of Anchoring."
+  },
+  {
+    "name": "Remarks",
+    "description": "Parameter representing Remarks."
+  },
+  {
+    "name": "Report_Create_Time",
+    "description": "Parameter representing Report Create Time."
+  },
+  {
+    "name": "Report_Date_Time",
+    "description": "Parameter representing Report Date Time."
+  },
+  {
+    "name": "Report_Type",
+    "description": "Parameter representing Report Type."
+  },
+  {
+    "name": "Sea_Temperature",
+    "description": "Parameter representing Sea Temperature."
+  },
+  {
+    "name": "Sea_Temperature_Unit",
+    "description": "Parameter representing Sea Temperature Unit."
+  },
+  {
+    "name": "Secondly_Cargo_Name",
+    "description": "Parameter representing Secondly Cargo Name."
+  },
+  {
+    "name": "Secondly_On_Deck",
+    "description": "Parameter representing Secondly On Deck."
+  },
+  {
+    "name": "Set_Gyro",
+    "description": "Parameter representing Set Gyro."
+  },
+  {
+    "name": "Set_Gyro_Unit",
+    "description": "Parameter representing Set Gyro Unit."
+  },
+  {
+    "name": "Ship_Masters_Name",
+    "description": "Parameter representing Ship Masters Name."
+  },
+  {
+    "name": "Source_Port_Code",
+    "description": "Parameter representing Source Port Code."
+  },
+  {
+    "name": "Speed_Instruction",
+    "description": "Parameter representing Speed Instruction."
+  },
+  {
+    "name": "Speed_Instruction_Unit",
+    "description": "Parameter representing Speed Instruction Unit."
+  },
+  {
+    "name": "Start_Port",
+    "description": "Parameter representing Start Port."
+  },
+  {
+    "name": "Start_Port_Code",
+    "description": "Parameter representing Start Port Code."
+  },
+  {
+    "name": "Status",
+    "description": "Parameter representing Status."
+  },
+  {
+    "name": "Swell_Direction",
+    "description": "Parameter representing Swell Direction."
+  },
+  {
+    "name": "Swell_Height",
+    "description": "Parameter representing Swell Height."
+  },
+  {
+    "name": "Swell_Height_Unit",
+    "description": "Parameter representing Swell Height Unit."
+  },
+  {
+    "name": "Temperature",
+    "description": "Parameter representing Temperature."
+  },
+  {
+    "name": "Time_Commencement_of_Anchoring",
+    "description": "Parameter representing Time Commencement of Anchoring."
+  },
+  {
+    "name": "Time_Completion_of_Anchoring",
+    "description": "Parameter representing Time Completion of Anchoring."
+  },
+  {
+    "name": "Time_RuP_Eng_To_SBE_Engine",
+    "description": "Parameter representing Time RuP Eng To SBE Engine."
+  },
+  {
+    "name": "Total_AE_Consumed_In_MT",
+    "description": "Parameter representing Total AE Consumed In MT."
+  },
+  {
+    "name": "Total_AE_DO_Consumed_In_MT",
+    "description": "Parameter representing Total AE DO Consumed In MT."
+  },
+  {
+    "name": "Total_AE_GO_Consumed_In_MT",
+    "description": "Parameter representing Total AE GO Consumed In MT."
+  },
+  {
+    "name": "Total_BLR_Consumed_In_MT",
+    "description": "Parameter representing Total BLR Consumed In MT."
+  },
+  {
+    "name": "Total_BLR_DO_Consumed_In_MT",
+    "description": "Parameter representing Total BLR DO Consumed In MT."
+  },
+  {
+    "name": "Total_BLR_GO_Consumed_In_MT",
+    "description": "Parameter representing Total BLR GO Consumed In MT."
+  },
+  {
+    "name": "Total_Cargo",
+    "description": "Parameter representing Total Cargo."
+  },
+  {
+    "name": "Total_DO_Consumed_In_MT",
+    "description": "Parameter representing Total DO Consumed In MT."
+  },
+  {
+    "name": "Total_DO_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total DO Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_DO_Remaining_On_Board_In_MT",
+    "description": "Parameter representing Total DO Remaining On Board In MT."
+  },
+  {
+    "name": "Total_DO_Remaining_On_Board_In_MT_AT_Departure_From_Final_Berth",
+    "description": "Parameter representing Total DO Remaining On Board In MT AT Departure From Final Berth."
+  },
+  {
+    "name": "Total_DO_Remaining_On_Board_In_MT_AT_RuP_Eng",
+    "description": "Parameter representing Total DO Remaining On Board In MT AT RuP Eng."
+  },
+  {
+    "name": "Total_DO_Remaining_On_Board_In_MT_Commencement_of_Anchoring",
+    "description": "Parameter representing Total DO Remaining On Board In MT Commencement of Anchoring."
+  },
+  {
+    "name": "Total_DO_Remaining_On_Board_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Total DO Remaining On Board In MT Completion of Anchoring."
+  },
+  {
+    "name": "Total_FO_Consumed_In_MT",
+    "description": "Parameter representing Total FO Consumed In MT."
+  },
+  {
+    "name": "Total_FO_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total FO Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_FO_Remaining_On_Board_In_MT",
+    "description": "Parameter representing Total FO Remaining On Board In MT."
+  },
+  {
+    "name": "Total_FW_Consumed",
+    "description": "Parameter representing Total FW Consumed."
+  },
+  {
+    "name": "Total_FW_Consumed_Unit",
+    "description": "Parameter representing Total FW Consumed Unit."
+  },
+  {
+    "name": "Total_GO_Consumed_In_MT",
+    "description": "Parameter representing Total GO Consumed In MT."
+  },
+  {
+    "name": "Total_GO_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total GO Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_GO_Remaining_On_Board_In_MT",
+    "description": "Parameter representing Total GO Remaining On Board In MT."
+  },
+  {
+    "name": "Total_GO_Remaining_On_Board_In_MT_AT_Departure_From_Final_Berth",
+    "description": "Parameter representing Total GO Remaining On Board In MT AT Departure From Final Berth."
+  },
+  {
+    "name": "Total_GO_Remaining_On_Board_In_MT_AT_RuP_Eng",
+    "description": "Parameter representing Total GO Remaining On Board In MT AT RuP Eng."
+  },
+  {
+    "name": "Total_GO_Remaining_On_Board_In_MT_Commencement_of_Anchoring",
+    "description": "Parameter representing Total GO Remaining On Board In MT Commencement of Anchoring."
+  },
+  {
+    "name": "Total_GO_Remaining_On_Board_In_MT_Completion_of_Anchoring",
+    "description": "Parameter representing Total GO Remaining On Board In MT Completion of Anchoring."
+  },
+  {
+    "name": "Total_HFOAE_Consumed_In_MT",
+    "description": "Parameter representing Total HFOAE Consumed In MT."
+  },
+  {
+    "name": "Total_HFOBLR_Consumed_In_MT",
+    "description": "Parameter representing Total HFOBLR Consumed In MT."
+  },
+  {
+    "name": "Total_HFOME_Consumed_In_MT",
+    "description": "Parameter representing Total HFOME Consumed In MT."
+  },
+  {
+    "name": "Total_HFO_Consumed_In_MT",
+    "description": "Parameter representing Total HFO Consumed In MT."
+  },
+  {
+    "name": "Total_HFO_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total HFO Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_LFO_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total LFO Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_LSFOAE_Consumed_In_MT",
+    "description": "Parameter representing Total LSFOAE Consumed In MT."
+  },
+  {
+    "name": "Total_LSFOBLR_Consumed_In_MT",
+    "description": "Parameter representing Total LSFOBLR Consumed In MT."
+  },
+  {
+    "name": "Total_LSFOME_Consumed_In_MT",
+    "description": "Parameter representing Total LSFOME Consumed In MT."
+  },
+  {
+    "name": "Total_LSFO_Consumed_In_MT",
+    "description": "Parameter representing Total LSFO Consumed In MT."
+  },
+  {
+    "name": "Total_LSMDOAE_Consumed_In_MT",
+    "description": "Parameter representing Total LSMDOAE Consumed In MT."
+  },
+  {
+    "name": "Total_LSMDOBLR_Consumed_In_MT",
+    "description": "Parameter representing Total LSMDOBLR Consumed In MT."
+  },
+  {
+    "name": "Total_LSMDOME_Consumed_In_MT",
+    "description": "Parameter representing Total LSMDOME Consumed In MT."
+  },
+  {
+    "name": "Total_LSMDO_Consumed_In_MT",
+    "description": "Parameter representing Total LSMDO Consumed In MT."
+  },
+  {
+    "name": "Total_LSMDO_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total LSMDO Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_LSMGOAE_Consumed_In_MT",
+    "description": "Parameter representing Total LSMGOAE Consumed In MT."
+  },
+  {
+    "name": "Total_LSMGOBLR_Consumed_In_MT",
+    "description": "Parameter representing Total LSMGOBLR Consumed In MT."
+  },
+  {
+    "name": "Total_LSMGOME_Consumed_In_MT",
+    "description": "Parameter representing Total LSMGOME Consumed In MT."
+  },
+  {
+    "name": "Total_LSMGO_Consumed_In_MT",
+    "description": "Parameter representing Total LSMGO Consumed In MT."
+  },
+  {
+    "name": "Total_LSMGO_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total LSMGO Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_MDOAE_MAX(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MDOAE MAX 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MDOAE_Over(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MDOAE Over 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MDOBLR_MAX(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MDOBLR MAX 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MDOBLR_Over(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MDOBLR Over 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MDOME_MAX(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MDOME MAX 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MDOME_Over(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MDOME Over 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MDO_MAX(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MDO MAX 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MDO_MAX(0.5)_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total MDO MAX 0.5  Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_MDO_Over(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MDO Over 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MDO_Over(0.5)_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total MDO Over 0.5  Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_ME_CYL_Oil_Consumed_High_Sulphur",
+    "description": "Parameter representing Total ME CYL Oil Consumed High Sulphur."
+  },
+  {
+    "name": "Total_ME_CYL_Oil_Consumed_High_Sulphur_Unit",
+    "description": "Parameter representing Total ME CYL Oil Consumed High Sulphur Unit."
+  },
+  {
+    "name": "Total_ME_CYL_Oil_Consumed_Low_Sulphur",
+    "description": "Parameter representing Total ME CYL Oil Consumed Low Sulphur."
+  },
+  {
+    "name": "Total_ME_CYL_Oil_Consumed_Low_Sulphur_Unit",
+    "description": "Parameter representing Total ME CYL Oil Consumed Low Sulphur Unit."
+  },
+  {
+    "name": "Total_ME_Consumed_In_MT",
+    "description": "Parameter representing Total ME Consumed In MT."
+  },
+  {
+    "name": "Total_ME_DO_Consumed_In_MT",
+    "description": "Parameter representing Total ME DO Consumed In MT."
+  },
+  {
+    "name": "Total_ME_GO_Consumed_In_MT",
+    "description": "Parameter representing Total ME GO Consumed In MT."
+  },
+  {
+    "name": "Total_MGOAE_MAX(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MGOAE MAX 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MGOAE_Over(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MGOAE Over 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MGOBLR_MAX(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MGOBLR MAX 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MGOBLR_Over(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MGOBLR Over 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MGOME_MAX(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MGOME MAX 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MGOME_Over(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MGOME Over 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MGO_MAX(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MGO MAX 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_MGO_MAX(0.5)_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total MGO MAX 0.5  Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_MGO_Over(0.5)_Consumed_In_MT",
+    "description": "Parameter representing Total MGO Over 0.5  Consumed In MT."
+  },
+  {
+    "name": "Total_Received_Quantity_Of_DO_Bunker",
+    "description": "Parameter representing Total Received Quantity Of DO Bunker."
+  },
+  {
+    "name": "Total_Received_Quantity_Of_FO_Bunker",
+    "description": "Parameter representing Total Received Quantity Of FO Bunker."
+  },
+  {
+    "name": "Total_Received_Quantity_Of_GO_Bunker",
+    "description": "Parameter representing Total Received Quantity Of GO Bunker."
+  },
+  {
+    "name": "Total_ULSFOAE_Consumed_In_MT",
+    "description": "Parameter representing Total ULSFOAE Consumed In MT."
+  },
+  {
+    "name": "Total_ULSFOBLR_Consumed_In_MT",
+    "description": "Parameter representing Total ULSFOBLR Consumed In MT."
+  },
+  {
+    "name": "Total_ULSFOME_Consumed_In_MT",
+    "description": "Parameter representing Total ULSFOME Consumed In MT."
+  },
+  {
+    "name": "Total_ULSFO_Consumed_In_MT",
+    "description": "Parameter representing Total ULSFO Consumed In MT."
+  },
+  {
+    "name": "Total_ULSFO_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total ULSFO Consumed In MT AT Berth."
+  },
+  {
+    "name": "Total_VLSFOAE_Consumed_In_MT",
+    "description": "Parameter representing Total VLSFOAE Consumed In MT."
+  },
+  {
+    "name": "Total_VLSFOBLR_Consumed_In_MT",
+    "description": "Parameter representing Total VLSFOBLR Consumed In MT."
+  },
+  {
+    "name": "Total_VLSFOME_Consumed_In_MT",
+    "description": "Parameter representing Total VLSFOME Consumed In MT."
+  },
+  {
+    "name": "Total_VLSFO_Consumed_In_MT",
+    "description": "Parameter representing Total VLSFO Consumed In MT."
+  },
+  {
+    "name": "Total_VLSFO_Consumed_In_MT_AT_Berth",
+    "description": "Parameter representing Total VLSFO Consumed In MT AT Berth."
+  },
+  {
+    "name": "True_Course",
+    "description": "Parameter representing True Course."
+  },
+  {
+    "name": "True_Course_Unit",
+    "description": "Parameter representing True Course Unit."
+  },
+  {
+    "name": "Unit_of_Dist_RUP_Eng_To_SBE_Engine",
+    "description": "Parameter representing Unit of Dist RUP Eng To SBE Engine."
+  },
+  {
+    "name": "Unusable_1st_RPM",
+    "description": "Parameter representing Unusable 1st RPM."
+  },
+  {
+    "name": "Unusable_2nd_RPM",
+    "description": "Parameter representing Unusable 2nd RPM."
+  },
+  {
+    "name": "Vessel_Condition",
+    "description": "Parameter representing Vessel Condition."
+  },
+  {
+    "name": "Vessel_Name",
+    "description": "Parameter representing Vessel Name."
+  },
+  {
+    "name": "Vessel_Position",
+    "description": "Parameter representing Vessel Position."
+  },
+  {
+    "name": "Voyage_Date",
+    "description": "Parameter representing Voyage Date."
+  },
+  {
+    "name": "Voyage_Number",
+    "description": "Parameter representing Voyage Number."
+  },
+  {
+    "name": "Wind_Relative_Direction",
+    "description": "Parameter representing Wind Relative Direction."
+  },
+  {
+    "name": "Wind_Sea_Direction",
+    "description": "Parameter representing Wind Sea Direction."
+  },
+  {
+    "name": "Wind_Sea_Height",
+    "description": "Parameter representing Wind Sea Height."
+  },
+  {
+    "name": "Wind_Sea_Height_Unit",
+    "description": "Parameter representing Wind Sea Height Unit."
+  },
+  {
+    "name": "Wind_Speed",
+    "description": "Parameter representing Wind Speed."
+  },
+  {
+    "name": "Wind_Speed_Unit",
+    "description": "Parameter representing Wind Speed Unit."
+  },
+  {
+    "name": "Wind_True_Direction",
+    "description": "Parameter representing Wind True Direction."
+  }
+]
