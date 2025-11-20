@@ -96,7 +96,7 @@ def rag_mapping(vectordb, extracted_data):
 # -----------------------------
 vectordb = load_param_db()
 
-with open("misuga_parssed2.json", "r") as f:
+with open("misuga_parssed4.json", "r") as f:
     parsed_data = json.load(f)
 
 mapped = rag_mapping(vectordb, parsed_data)
