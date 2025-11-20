@@ -7,7 +7,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 DB_DIR = "standard_param_db_misuga_description"
 
 def load_param_db():
-    """Load Chroma DB with metadata {name, description}."""
+    
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
@@ -21,7 +21,6 @@ def load_param_db():
 
 
 def rag_map_key(llm, extracted_key, candidates):
-    """LLM chooses the best matching standard parameter key."""
 
     prompt = f"""
 You are an expert maritime data mapper.
@@ -120,7 +119,7 @@ def rag_mapping(vectordb, extracted_data):
 MEMORI_FILE = "memori/misuga_memori2.json"
 
 def load_memori():
-    """Load memory mapping file."""
+
     if not os.path.exists(MEMORI_FILE):
         return {}
     with open(MEMORI_FILE, "r") as f:
@@ -132,8 +131,6 @@ def save_memori(mem):
         json.dump(mem, f, indent=2)
 
 
-
-# EXECUTION
 
 vectordb = load_param_db()
 
