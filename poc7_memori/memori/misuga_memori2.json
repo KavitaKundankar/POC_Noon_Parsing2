@@ -24,7 +24,6 @@
   "total_cargo": "Total_Cargo",
   "ship_master_name": "Ship_Masters_Name",
   "vessel_name": "Vessel_Name",
-  "imo_number": "IMO_Number",
   "current_port_code": "Source_Port_Code",
   "balance_to_load_disch": "Balance_To_Load_Discharge",
   "remaining_on_board_FW": "Remaining_On_Board_FW_In_MT",
@@ -37,16 +36,12 @@
   "latitude": "Latitude",
   "draft_aft_m": "Draft_AFT",
   "draft_mid_m": "Draft_Mid",
-  "go_max0.5_sulphur_content": "GO_in_Use_Sulphur_Content",
-  "go_max0.1_sulphur_content": "GO_in_Use_Sulphur_Content",
-  "do_over0.5_sulphur_content": "DO_in_Use_Sulphur_Content",
-  "do_max0.5_sulphur_content": "DO_in_Use_Sulphur_Content",
-  "do_max0.1_sulphur_content": "DO_in_Use_Sulphur_Content",
   "crane_running_last_24hrs_no1": "Crane_NO1_Running_Hrs",
   "crane_running_last_24hrs_no2": "Crane_NO2_Running_Hrs",
   "crane_running_last_24hrs_no3": "Crane_NO3_Running_Hrs",
   "crane_running_last_24hrs_no4": "Crane_NO4_Running_Hrs",
   "dg2_lo_press": "DG_LO_PRESS_NO2",
   "dg3_lo_press": "DG_LO_PRESS_NO3",
-  "dg4_lo_press": "DG_LO_PRESS_NO4"
+  "dg4_lo_press": "DG_LO_PRESS_NO4",
+  "imo_number": "IMO_Number"
 }
