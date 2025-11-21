@@ -2,8 +2,8 @@ import json
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-PARAM_FILE = "misuga_standard_parameters_with_description.json"
-DB_DIR = "standard_param_db_misuga_description"
+PARAM_FILE = "orion_standardparameter_description.json"
+DB_DIR = "standard_param_db_orion_description"
 
 def build_standard_param_db():
     with open(PARAM_FILE, "r") as f:

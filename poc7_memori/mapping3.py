@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-DB_DIR = "standard_param_db_misuga_description"
+DB_DIR = "standard_param_db_orion_description"
 
 def load_param_db():
     
@@ -116,7 +116,7 @@ def rag_mapping(vectordb, extracted_data):
     return final_mapping
 
 
-MEMORI_FILE = "memori/misuga_memori2.json"
+MEMORI_FILE = "memori/orion_falcon_memori.json"
 
 def load_memori():
 
@@ -134,7 +134,7 @@ def save_memori(mem):
 
 vectordb = load_param_db()
 
-filename = "misuga2"
+filename = "orion_kalimantan"
 with open(f"input/{filename}.json", "r") as f:
     parsed_data = json.load(f)
 
@@ -144,26 +144,3 @@ with open(f"output/{filename}.json", "w") as f:
     json.dump(mapped, f, indent=2)
 
 print("Mapping completed.")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# docs = vectordb.similarity_search(extracted_key, k=5)
-        # print(docs)
-
-        # candidates = [
-        #     doc.metadata["name"]
-        #     for doc in docs
-        # ]
